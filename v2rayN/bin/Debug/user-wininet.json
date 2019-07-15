@@ -1,0 +1,7 @@
+{
+  "UserSettingsRecorded": false,
+  "Flags": "1",
+  "ProxyServer": "127.0.0.1:1081",
+  "BypassList": "127.0.0.1;<local>",
+  "PacUrl": "http://127.0.0.1:1082/pac/?t=20190705005118182"
+}
