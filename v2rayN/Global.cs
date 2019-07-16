@@ -8,11 +8,11 @@ namespace v2rayN
         /// <summary>
         /// 更新链接
         /// </summary>
-        public const string UpdateUrl = @"https://avalyuan.me/downloads.php";
+        public const string UpdateUrl = @"https://github.com/raymao9/v2rayN/releases";
         /// <summary>
         /// 关于链接 (程式開發者資訊)
         /// </summary>
-        public const string AboutUrl = @"https://github.com/2dust/v2rayN";
+        public const string AboutUrl = @"https://github.com/raymao9/v2rayN";
 
         /// <summary>
         /// SpeedTestUrl
