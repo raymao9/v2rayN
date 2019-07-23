@@ -3,7 +3,7 @@
   <PropertyGroup>
     <PublishUrlHistory>发布\</PublishUrlHistory>
     <InstallUrlHistory />
-    <SupportUrlHistory />
+    <SupportUrlHistory>https://avalyuan.me/submitticket.php|https://avalyuan.me</SupportUrlHistory>
     <UpdateUrlHistory />
     <BootstrapperUrlHistory />
     <ErrorReportUrlHistory />

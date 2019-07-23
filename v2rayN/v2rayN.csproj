@@ -25,7 +25,9 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>https://avalyuan.me/submitticket.php</SupportUrl>
     <TargetCulture>zh-TW</TargetCulture>
+    <ProductName>v2rayN</ProductName>
     <PublisherName>Link to Fish</PublisherName>
     <SuiteName>v2rayN</SuiteName>
     <ApplicationRevision>2</ApplicationRevision>
@@ -35,7 +37,7 @@
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -76,8 +78,19 @@
   </PropertyGroup>
   <PropertyGroup />
   <PropertyGroup />
+  <PropertyGroup />
   <PropertyGroup>
-    <NoWin32Manifest>true</NoWin32Manifest>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>false</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">
@@ -246,6 +259,9 @@
       <DependentUpon>QRCodeControl.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\SubSettingControl.en.resx">
+      <DependentUpon>SubSettingControl.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\SubSettingControl.resx">
       <DependentUpon>SubSettingControl.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -296,6 +312,7 @@
     <EmbeddedResource Include="app.config">
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -334,9 +351,14 @@
     <EmbeddedResource Include="Sample\SampleHttpresponse.txt" />
   </ItemGroup>
   <ItemGroup>
-    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6">
       <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4 %28x86 和 x64%29</ProductName>
+      <ProductName>Microsoft .NET Framework 4.6 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 和 x64%29</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">

@@ -75,6 +75,7 @@
             // 
             resources.ApplyResources(this.txtRemarks, "txtRemarks");
             this.txtRemarks.Name = "txtRemarks";
+            this.txtRemarks.TextChanged += new System.EventHandler(this.txtRemarks_TextChanged);
             this.txtRemarks.Leave += new System.EventHandler(this.txtRemarks_Leave);
             // 
             // label2

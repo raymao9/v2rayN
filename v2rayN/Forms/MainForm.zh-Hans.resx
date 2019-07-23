@@ -286,25 +286,25 @@
     <value>340, 22</value>
   </data>
   <data name="menuGlobal.Text" xml:space="preserve">
-    <value>[全局模式] 开启 HTTP 代理，并自动配置代理服务器</value>
+    <value>[全局模式] 所有通过浏览器访问的网站都走代理</value>
   </data>
   <data name="menuGlobalPAC.Size" type="System.Drawing.Size, System.Drawing">
     <value>340, 22</value>
   </data>
   <data name="menuGlobalPAC.Text" xml:space="preserve">
-    <value>[PAC 模式] 开启 PAC，并自动配置 PAC</value>
+    <value>[分流模式] 仅通过浏览器访问的被墙网站走代理</value>
   </data>
   <data name="menuKeep.Size" type="System.Drawing.Size, System.Drawing">
     <value>340, 22</value>
   </data>
   <data name="menuKeep.Text" xml:space="preserve">
-    <value>[直连模式] 仅开启 HTTP 代理，不自动配置代理服务器</value>
+    <value>[直连模式] 所有通过浏览器访问的任何网站都不走代理</value>
   </data>
   <data name="menuKeepPAC.Size" type="System.Drawing.Size, System.Drawing">
     <value>340, 22</value>
   </data>
   <data name="menuKeepPAC.Text" xml:space="preserve">
-    <value>[手动 PAC] 仅开启 PAC，不自动配置 PAC</value>
+    <value>[手动模式] 仅开启 PAC，但不自动配置</value>
   </data>
   <data name="menuSysAgentMode.Size" type="System.Drawing.Size, System.Drawing">
     <value>195, 22</value>
@@ -399,13 +399,13 @@
     <value>232, 22</value>
   </data>
   <data name="tsbCheckUpdateN.Text" xml:space="preserve">
-    <value>检查更新 V2rayN</value>
+    <value>检查更新 v2rayN</value>
   </data>
   <data name="tsbCheckUpdateCore.Size" type="System.Drawing.Size, System.Drawing">
     <value>232, 22</value>
   </data>
   <data name="tsbCheckUpdateCore.Text" xml:space="preserve">
-    <value>检查更新 V2rayCore</value>
+    <value>检查更新 v2rayCore</value>
   </data>
   <data name="tsbCheckUpdatePACList.Size" type="System.Drawing.Size, System.Drawing">
     <value>232, 22</value>
@@ -473,5 +473,8 @@
   </data>
   <data name="tsbClose.Text" xml:space="preserve">
     <value>最小化</value>
+  </data>
+  <data name="tsbTutorial.Text" xml:space="preserve">
+    <value>操作教程</value>
   </data>
 </root>

@@ -92,6 +92,7 @@ E:\林锜薇\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\obj\Debug\V2rayN
 E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\bin\Debug\V2rayN.exe
 E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\bin\Debug\V2rayN.pdb
 E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\bin\Debug\zh-Hans\V2rayN.resources.dll
+E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\bin\Debug\en\V2rayN.resources.dll
 E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\obj\Debug\v2rayN.Forms.AddServer4Form.resources
 E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\obj\Debug\v2rayN.Forms.MainForm.resources
 E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\obj\Debug\v2rayN.Forms.SubSettingControl.resources
@@ -111,12 +112,16 @@ E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\obj
 E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\obj\Debug\v2rayN.Forms.MainForm.zh-Hans.resources
 E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\obj\Debug\v2rayN.Forms.OptionSettingForm.zh-Hans.resources
 E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\obj\Debug\v2rayN.Forms.QRCodeControl.zh-Hans.resources
+E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\obj\Debug\v2rayN.Forms.SubSettingControl.en.resources
 E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\obj\Debug\v2rayN.Forms.SubSettingControl.zh-Hans.resources
 E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\obj\Debug\v2rayN.Forms.SubSettingForm.zh-Hans.resources
 E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\obj\Debug\v2rayN.Resx.ResUI.zh-Hans.resources
 E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\obj\Debug\v2rayN.csproj.GenerateResource.cache
 E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\obj\Debug\v2rayN.csproj.CoreCompileInputs.cache
 E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\obj\Debug\zh-Hans\V2rayN.resources.dll
+E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\obj\Debug\en\V2rayN.resources.dll
 E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\obj\Debug\V2rayN.exe
 E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\obj\Debug\V2rayN.pdb
-E:\●備份區\●文件\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\obj\Debug\v2rayN.csprojAssemblyReference.cache
+E:\林锜薇\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\bin\Debug\en\V2rayN.resources.dll
+E:\林锜薇\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\obj\Debug\v2rayN.Forms.SubSettingControl.en.resources
+E:\林锜薇\OneDrive - e3mao\個人項目\Github\v2rayN\v2rayN\obj\Debug\en\V2rayN.resources.dll

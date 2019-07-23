@@ -134,8 +134,8 @@
   <data name="btnRemove.Text" xml:space="preserve">
     <value>&amp;刪除</value>
   </data>
-  <data name="btnRemove.Location" type="System.Drawing.Point, System.Drawing">
-    <value>484, 21</value>
+  <data name="&gt;&gt;txtRemarks.Name" xml:space="preserve">
+    <value>txtRemarks</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnRemove.TabIndex" type="System.Int32, mscorlib">
@@ -271,7 +271,7 @@
     <value>11</value>
   </data>
   <data name="label2.Text" xml:space="preserve">
-    <value>訂閱組名 (自定義)</value>
+    <value>訂閱組名</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -309,8 +309,8 @@
   <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
-  <data name="&gt;&gt;txtRemarks.Name" xml:space="preserve">
-    <value>txtRemarks</value>
+  <data name="btnRemove.Location" type="System.Drawing.Point, System.Drawing">
+    <value>484, 21</value>
   </data>
   <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
     <value>5</value>

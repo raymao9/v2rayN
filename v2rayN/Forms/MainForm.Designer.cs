@@ -103,6 +103,7 @@
             this.tsbPromotion = new System.Windows.Forms.ToolStripButton();
             this.toolStripSeparator11 = new System.Windows.Forms.ToolStripSeparator();
             this.tsbClose = new System.Windows.Forms.ToolStripButton();
+            this.tsbTutorial = new System.Windows.Forms.ToolStripButton();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -484,6 +485,7 @@
             this.toolStripSeparator10,
             this.tsbHelp,
             this.tsbPromotion,
+            this.tsbTutorial,
             this.toolStripSeparator11,
             this.tsbClose});
             resources.ApplyResources(this.tsMain, "tsMain");
@@ -626,6 +628,13 @@
             this.tsbPromotion.Name = "tsbPromotion";
             this.tsbPromotion.Click += new System.EventHandler(this.tsbPromotion_Click);
             // 
+            // tsbTutorial
+            // 
+            this.tsbTutorial.Image = global::v2rayN.Properties.Resources.about;
+            resources.ApplyResources(this.tsbTutorial, "tsbTutorial");
+            this.tsbTutorial.Name = "tsbTutorial";
+            this.tsbTutorial.Click += new System.EventHandler(this.tsbTutorial_Click);
+            //
             // toolStripSeparator11
             // 
             this.toolStripSeparator11.Name = "toolStripSeparator11";
@@ -743,6 +752,7 @@
         private System.Windows.Forms.ToolStripMenuItem tsbLanguageZhHans;
         private System.Windows.Forms.ToolStripButton tsbPromotion;
         private System.Windows.Forms.ToolStripMenuItem menuAddSocksServer;
+        private System.Windows.Forms.ToolStripButton tsbTutorial;
     }
 }
 

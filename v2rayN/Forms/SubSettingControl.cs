@@ -58,5 +58,10 @@ namespace v2rayN.Forms
                 OnButtonClicked(sender, e);
             }
         }
+
+        private void txtRemarks_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -96,13 +96,13 @@ namespace v2rayN.Forms
             RefreshSubsView();
         }
 
-
+        
         private void AddSub()
         {
             var subItem = new SubItem();
             subItem.id = string.Empty;
-            subItem.remarks = "remarks";
-            subItem.url = "url";
+            subItem.remarks = " ";
+            subItem.url = " ";
             config.subItem.Add(subItem);
         }
     }

@@ -148,13 +148,13 @@
     <value>請正確填寫用戶 ID (UUID)</value>
   </data>
   <data name="NeedHttpGlobalProxy" xml:space="preserve">
-    <value>此功能依賴全局代理，請先調整您的路由模式</value>
+    <value>此功能依賴全局代理，請確認已啟用系統代理且路由已調整為全局模式！</value>
   </data>
   <data name="NonVmessService" xml:space="preserve">
     <value>非 Vmess 協議，此功能無效</value>
   </data>
   <data name="NoValidQRcodeFound" xml:space="preserve">
-    <value>掃描完成，未發現有效 QR 碼</value>
+    <value>掃描完成，未發現有效 QR 碼！</value>
   </data>
   <data name="OperationFailed" xml:space="preserve">
     <value>操作失敗，請重試</value>
@@ -169,7 +169,7 @@
     <value>請選擇協議</value>
   </data>
   <data name="PleaseSelectServer" xml:space="preserve">
-    <value>請先選擇節點</value>
+    <value>請先選擇一個節點！</value>
   </data>
   <data name="SuccessfullyImportedCustomServer" xml:space="preserve">
     <value>自定義節點設定檔已匯入</value>
@@ -178,7 +178,7 @@
     <value>從剪貼簿批次匯入節點 URL 已完成</value>
   </data>
   <data name="CustomServerTips" xml:space="preserve">
-    <value>注意：自定義節點設定檔完全依賴您自己的設定，不一定適用本軟體所有功能</value>
+    <value>注意：自定義節點設定檔完全依賴您自己的設定，不一定適用本軟體所有功能。</value>
   </data>
   <data name="SaveClientConfigurationIn" xml:space="preserve">
     <value>客戶端設定檔已儲存至： {0}</value>
@@ -187,7 +187,7 @@
     <value>服務端設定檔已儲存至： {0}</value>
   </data>
   <data name="SpeedServerTips" xml:space="preserve">
-    <value>注意：此功能依賴全局代理，您可於測速完成後重新選擇其他路由模式</value>
+    <value>注意：此功能依賴全局代理，您可於測速完成後重新選擇其他路由模式。</value>
   </data>
   <data name="SuccessfullyImportedServerViaScan" xml:space="preserve">
     <value>掃描匯入節點 URL 已完成</value>
@@ -236,7 +236,7 @@
 {0}</value>
   </data>
   <data name="NotFoundCore" xml:space="preserve">
-    <value>未找到 V2ray-core，下載點： {0}</value>
+    <value>未安裝 v2ray-core，請利用 [線上更新] 功能自動下載</value>
   </data>
   <data name="StartService" xml:space="preserve">
     <value>啟動服務 ({0})......</value>
@@ -269,7 +269,7 @@
     <value>刪除原節點訂閱內容</value>
   </data>
   <data name="MsgDownloadV2rayCoreSuccessfully" xml:space="preserve">
-    <value>V2rayCore 下載成功</value>
+    <value>v2rayCore 下載成功</value>
   </data>
   <data name="MsgFailedImportSubscription" xml:space="preserve">
     <value>節點訂閱內容匯入失敗</value>
@@ -287,7 +287,7 @@
     <value>PAC 更新成功</value>
   </data>
   <data name="MsgParsingV2rayCoreSuccessfully" xml:space="preserve">
-    <value>V2rayCore 解析成功</value>
+    <value>v2rayCore 解析成功</value>
   </data>
   <data name="MsgSimplifyPAC" xml:space="preserve">
     <value>PAC 簡化成功</value>
@@ -299,7 +299,7 @@
     <value>開始更新 PAC...</value>
   </data>
   <data name="MsgStartUpdatingV2rayCore" xml:space="preserve">
-    <value>開始更新 V2rayCore...</value>
+    <value>開始更新 v2rayCore...</value>
   </data>
   <data name="MsgSubscriptionDecodingFailed" xml:space="preserve">
     <value>節點訂閱內容解碼失敗 (非 BASE64 編碼)</value>
@@ -314,12 +314,12 @@
     <value>開始更新節點訂閱</value>
   </data>
   <data name="MsgUpdateV2rayCoreSuccessfully" xml:space="preserve">
-    <value>V2rayCore 更新成功</value>
+    <value>v2rayCore 更新成功</value>
   </data>
   <data name="MsgUpdateV2rayCoreSuccessfullyMore" xml:space="preserve">
-    <value>V2rayCore 更新成功！正在重啟服務...</value>
+    <value>v2rayCore 更新成功！正在重啟服務...</value>
   </data>
   <data name="RestartService" xml:space="preserve">
-    <value>設定完成！請重啟應用程式以套用新的語言介面</value>
+    <value>設定完成！請重啟應用程式以套用新的語言介面。</value>
   </data>
 </root>

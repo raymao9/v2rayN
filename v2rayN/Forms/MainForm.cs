@@ -893,7 +893,7 @@ namespace v2rayN.Forms
 
             if (ConfigHandler.SetDefaultServer(ref config, lvSelecteds[index]) == 0)
             {
-                SetTestResult(lvSelecteds[index], "testing...");
+                SetTestResult(lvSelecteds[index], "測速中...");
 
                 v2rayHandler.LoadV2ray(config);
                 v2rayUpdateHandle2.DownloadFileAsync(config, url);
@@ -1239,6 +1239,9 @@ namespace v2rayN.Forms
         {
             System.Diagnostics.Process.Start(Global.PromotionUrl);
         }
+
+        
+
         #endregion
 
         #region ScanScreen
@@ -1374,6 +1377,16 @@ namespace v2rayN.Forms
         private void tsbHelp_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void toolStripLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tsbTutorial_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start(Global.TutorialUrl);
         }
     }
 }

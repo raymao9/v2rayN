@@ -1,14 +1,15 @@
-﻿using System.Reflection;
+﻿using System.Resources;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // 有关程序集的常规信息通过以下
 // 特性集控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("V2rayN for Windows")]
-[assembly: AssemblyDescription("A v2ray proxy client for Windows")]
+[assembly: AssemblyTitle("v2rayN")]
+[assembly: AssemblyDescription("適用於 v2ray 代理類型的客戶端軟體")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("RayFish")]
+[assembly: AssemblyCompany("Link to Fish")]
 [assembly: AssemblyProduct("v2rayN")]
 [assembly: AssemblyCopyright("Copyright © Link to Fish 2016-2019")]
 [assembly: AssemblyTrademark("RayFish")]
@@ -33,4 +34,7 @@ using System.Runtime.InteropServices;
 // 方法是按如下所示使用“*”:
 //[assembly: AssemblyVersion("1.0.*")]
 //[assembly: AssemblyVersion("1.0.0")]
-[assembly: AssemblyFileVersion("2.29")]
+[assembly: AssemblyFileVersion("1.0.1")]
+[assembly: AssemblyVersion("1.0.1")]
+[assembly: NeutralResourcesLanguage("")]
+

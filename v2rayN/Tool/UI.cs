@@ -12,7 +12,7 @@ namespace v2rayN
 
         public static DialogResult ShowYesNo(string msg)
         {
-            return MessageBox.Show(msg, "Comfirm", MessageBoxButtons.YesNo);
+            return MessageBox.Show(msg, "提示訊息", MessageBoxButtons.YesNo);
         }
 
         //public static string GetResourseString(string key)

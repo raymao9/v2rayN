@@ -30,6 +30,11 @@ namespace v2rayN
         public const string PromotionUrl = @"https://avalyuan.me/announcements.php";
 
         /// <summary>
+        /// TutorialUrl
+        /// </summary>
+        public const string TutorialUrl = @"https://avalyuan.me/knowledgebase.php";
+
+        /// <summary>
         /// 本软件配置文件名
         /// </summary>
         public const string ConfigFileName = "guiNConfig.json";

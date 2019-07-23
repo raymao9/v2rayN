@@ -97,7 +97,7 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 注意：自定義節點設定檔完全依賴您自己的設定，不一定適用本軟體所有功能 的本地化字符串。
+        ///   查找类似 注意：自定義節點設定檔完全依賴您自己的設定，不一定適用本軟體所有功能。 的本地化字符串。
         /// </summary>
         internal static string CustomServerTips {
             get {
@@ -340,7 +340,7 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 V2rayCore 下載成功 的本地化字符串。
+        ///   查找类似 v2rayCore 下載成功 的本地化字符串。
         /// </summary>
         internal static string MsgDownloadV2rayCoreSuccessfully {
             get {
@@ -394,7 +394,7 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 V2rayCore 解析成功 的本地化字符串。
+        ///   查找类似 v2rayCore 解析成功 的本地化字符串。
         /// </summary>
         internal static string MsgParsingV2rayCoreSuccessfully {
             get {
@@ -430,7 +430,7 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 開始更新 V2rayCore... 的本地化字符串。
+        ///   查找类似 開始更新 v2rayCore... 的本地化字符串。
         /// </summary>
         internal static string MsgStartUpdatingV2rayCore {
             get {
@@ -475,7 +475,7 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 V2rayCore 更新成功 的本地化字符串。
+        ///   查找类似 v2rayCore 更新成功 的本地化字符串。
         /// </summary>
         internal static string MsgUpdateV2rayCoreSuccessfully {
             get {
@@ -484,7 +484,7 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 V2rayCore 更新成功！正在重啟服務... 的本地化字符串。
+        ///   查找类似 v2rayCore 更新成功！正在重啟服務... 的本地化字符串。
         /// </summary>
         internal static string MsgUpdateV2rayCoreSuccessfullyMore {
             get {
@@ -493,7 +493,7 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 此功能依賴全局代理，請先調整您的路由模式 的本地化字符串。
+        ///   查找类似 此功能依賴全局代理，請確認已啟用系統代理且路由已調整為全局模式！ 的本地化字符串。
         /// </summary>
         internal static string NeedHttpGlobalProxy {
             get {
@@ -520,7 +520,7 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 未找到 V2ray-core，下載點： {0} 的本地化字符串。
+        ///   查找类似 未安裝 v2ray-core，請利用 [線上更新] 功能自動下載 的本地化字符串。
         /// </summary>
         internal static string NotFoundCore {
             get {
@@ -529,7 +529,7 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 掃描完成，未發現有效 QR 碼 的本地化字符串。
+        ///   查找类似 掃描完成，未發現有效 QR 碼！ 的本地化字符串。
         /// </summary>
         internal static string NoValidQRcodeFound {
             get {
@@ -574,7 +574,7 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 請先選擇節點 的本地化字符串。
+        ///   查找类似 請先選擇一個節點！ 的本地化字符串。
         /// </summary>
         internal static string PleaseSelectServer {
             get {
@@ -592,7 +592,7 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 設定完成！請重啟應用程式以套用新的語言介面 的本地化字符串。
+        ///   查找类似 設定完成！請重啟應用程式以套用新的語言介面。 的本地化字符串。
         /// </summary>
         internal static string RestartService {
             get {
@@ -619,7 +619,7 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 注意：此功能依賴全局代理，您可於測速完成後重新選擇其他路由模式 的本地化字符串。
+        ///   查找类似 注意：此功能依賴全局代理，您可於測速完成後重新選擇其他路由模式。 的本地化字符串。
         /// </summary>
         internal static string SpeedServerTips {
             get {
