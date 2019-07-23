@@ -236,7 +236,7 @@
 {0}</value>
   </data>
   <data name="NotFoundCore" xml:space="preserve">
-    <value>未找到 v2ray-core，请利用 [检查更新] 功能自动下载</value>
+    <value>未找到 v2ray-Core，请利用 [检查更新] 功能自动下载</value>
   </data>
   <data name="StartService" xml:space="preserve">
     <value>启动服务({0})......</value>

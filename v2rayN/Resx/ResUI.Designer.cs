@@ -520,7 +520,7 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 未安裝 v2ray-core，請利用 [線上更新] 功能自動下載 的本地化字符串。
+        ///   查找类似 未安裝 v2ray-Core，請利用 [線上更新] 功能自動下載 的本地化字符串。
         /// </summary>
         internal static string NotFoundCore {
             get {
