@@ -148,7 +148,7 @@
     <value>请填写用户 ID</value>
   </data>
   <data name="NeedHttpGlobalProxy" xml:space="preserve">
-    <value>此功能依赖 HTTP 全局代理，请先设置正确</value>
+    <value>此功能依赖全局代理，请先启用系统代理，路由选择全局模式。</value>
   </data>
   <data name="NonVmessService" xml:space="preserve">
     <value>非 Vmess 服务，此功能无效</value>
@@ -269,7 +269,7 @@
     <value>清除原订阅内容</value>
   </data>
   <data name="MsgDownloadV2rayCoreSuccessfully" xml:space="preserve">
-    <value>V2rayCore 下载成功</value>
+    <value>v2rayCore 下载成功</value>
   </data>
   <data name="MsgFailedImportSubscription" xml:space="preserve">
     <value>导入订阅内容失败</value>
