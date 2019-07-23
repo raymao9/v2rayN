@@ -1,3 +1,3 @@
 # V2rayN for Windows
-这是一个在 2dust/v2rayN 基础上进行微调+定制的版本，主要用于满足特定客户需求而进行的改造。如需下载类似客户端建议直接取用 2dust 的版本。
-本软件需要搭配 v2ray-Core 才可运行，请下载后直接打开程序界面在线更新 v2ray-Core。
+這是一個基於 [2dust/v2rayN](https://github.com/2dust/v2rayN) 的微調定制版本，需要原版的請前往原開發者主頁獲取。
+本軟體需要搭配 v2ray-Core 才可使用，請下載後於程式主介面進行線上更新。
