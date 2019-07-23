@@ -21,12 +21,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_13067F04976F4C19BEF49D456AC100E1"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_1646BED2F69342218C88C1519B8A8F19"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -51,14 +45,8 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_4FF4C8DC264A4874A190F26F1101269C"
+        "MsmKey" = "8:_5F4A12A3CF114123871116927210A706"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_5FB66DA4C38AB9952089DCAC29095602"
-        "OwnerKey" = "8:_EEC280C6E14E4CCC9D51AB7C67C5CCE6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -69,7 +57,13 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_7CE64E66A0A92B3B3D4CBC73D47EA3D0"
+        "MsmKey" = "8:_6F23D7A87C61EE6112C98D66FD350F42"
+        "OwnerKey" = "8:_EEC280C6E14E4CCC9D51AB7C67C5CCE6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_74433CA6F5F173AC5AC2A9531D2C2E6E"
         "OwnerKey" = "8:_EEC280C6E14E4CCC9D51AB7C67C5CCE6"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -81,7 +75,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_87A60E330F714BC1BF95742F00430D75"
+        "MsmKey" = "8:_8925664E87D34D9C8FBB0FB40806FEDE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -89,6 +83,18 @@
         {
         "MsmKey" = "8:_9289C5638D8249EEBB274BDE951169FA"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_967F869B02B4E0CCE73C1FB61BF83339"
+        "OwnerKey" = "8:_EEC280C6E14E4CCC9D51AB7C67C5CCE6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_967F869B02B4E0CCE73C1FB61BF83339"
+        "OwnerKey" = "8:_74433CA6F5F173AC5AC2A9531D2C2E6E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -123,6 +129,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_E0438188A6B64EDFA928617197507860"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_EA329A0CC19F46C4BC82225B2E53114B"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -131,18 +143,6 @@
         {
         "MsmKey" = "8:_EEC280C6E14E4CCC9D51AB7C67C5CCE6"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F1E4FC40B8CEC500F3F046F4BEED8A92"
-        "OwnerKey" = "8:_EEC280C6E14E4CCC9D51AB7C67C5CCE6"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_F1E4FC40B8CEC500F3F046F4BEED8A92"
-        "OwnerKey" = "8:_5FB66DA4C38AB9952089DCAC29095602"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -172,19 +172,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_5FB66DA4C38AB9952089DCAC29095602"
+        "OwnerKey" = "8:_74433CA6F5F173AC5AC2A9531D2C2E6E"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_F1E4FC40B8CEC500F3F046F4BEED8A92"
+        "OwnerKey" = "8:_967F869B02B4E0CCE73C1FB61BF83339"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_7CE64E66A0A92B3B3D4CBC73D47EA3D0"
+        "OwnerKey" = "8:_6F23D7A87C61EE6112C98D66FD350F42"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -286,7 +286,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:v4.6  "
+                "FrameworkVersion" = "8:v4.6   "
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://download.microsoft.com/download/3/5/9/35980F81-60F4-4DE3-88FC-8F962B97253B/NDP461-KB3102438-Web.exe"
                 }
@@ -300,26 +300,6 @@
             "TargetName" = "8:msiexec.exe"
             "Tag" = "8:"
             "Folder" = "8:_3719D6D2AB5049B886E66CE79448E2E9"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_13067F04976F4C19BEF49D456AC100E1"
-            {
-            "SourcePath" = "8:..\\..\\..\\外部資源\\安裝包的附加内容\\statics\\uninstall.ico"
-            "TargetName" = "8:uninstall.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_5105A14DEE4B477DBA14A8DF61478B3A"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -414,9 +394,9 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4FF4C8DC264A4874A190F26F1101269C"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_5F4A12A3CF114123871116927210A706"
             {
-            "SourcePath" = "8:..\\..\\..\\外部資源\\安裝包的附加内容\\statics\\v2rayN.ico"
+            "SourcePath" = "8:v2rayN.ico"
             "TargetName" = "8:v2rayN.ico"
             "Tag" = "8:"
             "Folder" = "8:_5105A14DEE4B477DBA14A8DF61478B3A"
@@ -432,37 +412,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_5FB66DA4C38AB9952089DCAC29095602"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:zxing.presentation, Version=0.16.2.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_5FB66DA4C38AB9952089DCAC29095602"
-                    {
-                    "Name" = "8:zxing.presentation.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:zxing.presentation.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_3719D6D2AB5049B886E66CE79448E2E9"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6C3F55E9F51142348033FAF6CC408AC6"
@@ -485,20 +434,51 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_7CE64E66A0A92B3B3D4CBC73D47EA3D0"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6F23D7A87C61EE6112C98D66FD350F42"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_7CE64E66A0A92B3B3D4CBC73D47EA3D0"
+                    "_6F23D7A87C61EE6112C98D66FD350F42"
                     {
                     "Name" = "8:Newtonsoft.Json.dll"
                     "Attributes" = "3:512"
                     }
                 }
             "SourcePath" = "8:Newtonsoft.Json.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_3719D6D2AB5049B886E66CE79448E2E9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_74433CA6F5F173AC5AC2A9531D2C2E6E"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:zxing.presentation, Version=0.16.2.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_74433CA6F5F173AC5AC2A9531D2C2E6E"
+                    {
+                    "Name" = "8:zxing.presentation.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:zxing.presentation.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_3719D6D2AB5049B886E66CE79448E2E9"
@@ -536,10 +516,10 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_87A60E330F714BC1BF95742F00430D75"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_8925664E87D34D9C8FBB0FB40806FEDE"
             {
-            "SourcePath" = "8:..\\..\\..\\外部資源\\安裝包的附加内容\\statics\\banner.png"
-            "TargetName" = "8:banner.png"
+            "SourcePath" = "8:uninstall.ico"
+            "TargetName" = "8:uninstall.ico"
             "Tag" = "8:"
             "Folder" = "8:_5105A14DEE4B477DBA14A8DF61478B3A"
             "Condition" = "8:"
@@ -574,6 +554,37 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_967F869B02B4E0CCE73C1FB61BF83339"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:zxing, Version=0.16.2.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_967F869B02B4E0CCE73C1FB61BF83339"
+                    {
+                    "Name" = "8:zxing.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:zxing.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_3719D6D2AB5049B886E66CE79448E2E9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_96830721A141426BADFAF2EEDB48DB30"
@@ -667,6 +678,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_E0438188A6B64EDFA928617197507860"
+            {
+            "SourcePath" = "8:v2rayN banner.png"
+            "TargetName" = "8:v2rayN banner.png"
+            "Tag" = "8:"
+            "Folder" = "8:_5105A14DEE4B477DBA14A8DF61478B3A"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EA329A0CC19F46C4BC82225B2E53114B"
             {
             "SourcePath" = "8:..\\..\\..\\外部資源\\安裝包的附加内容\\vpoint_socks_vmess.json"
@@ -685,37 +716,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F1E4FC40B8CEC500F3F046F4BEED8A92"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:zxing, Version=0.16.2.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_F1E4FC40B8CEC500F3F046F4BEED8A92"
-                    {
-                    "Name" = "8:zxing.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:zxing.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_3719D6D2AB5049B886E66CE79448E2E9"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_F4C3697B65C280BE7735DBDFAE7B5C9F"
@@ -870,7 +870,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:v2rayN"
         "ProductCode" = "8:{28B9F582-5F37-492B-9CA0-3C5BDEB4A869}"
-        "PackageCode" = "8:{16B3D72A-6EA8-42D8-9BE1-D43E0C709110}"
+        "PackageCode" = "8:{678F85C5-8015-4345-BC16-3D36165D912F}"
         "UpgradeCode" = "8:{ED35ECBD-C596-4611-A7F8-5E03F261CC93}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -887,7 +887,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:安裝 v2rayN 及其相關套件"
         "ARPURLINFOABOUT" = "8:https://avalyuan.me"
-        "ARPPRODUCTICON" = "8:_4FF4C8DC264A4874A190F26F1101269C"
+        "ARPPRODUCTICON" = "8:_5F4A12A3CF114123871116927210A706"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -1001,7 +1001,7 @@
             "Target" = "8:_EEC280C6E14E4CCC9D51AB7C67C5CCE6"
             "Folder" = "8:_8D17D3C2F7A649608A41295B15EC7F14"
             "WorkingFolder" = "8:_3719D6D2AB5049B886E66CE79448E2E9"
-            "Icon" = "8:_4FF4C8DC264A4874A190F26F1101269C"
+            "Icon" = "8:_5F4A12A3CF114123871116927210A706"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_22AD56D751E14704A86E3A7FFC559203"
@@ -1015,7 +1015,7 @@
             "Target" = "8:_EEC280C6E14E4CCC9D51AB7C67C5CCE6"
             "Folder" = "8:_84F03D6BCB3A47D981F9EEB8C870197C"
             "WorkingFolder" = "8:_3719D6D2AB5049B886E66CE79448E2E9"
-            "Icon" = "8:_4FF4C8DC264A4874A190F26F1101269C"
+            "Icon" = "8:_5F4A12A3CF114123871116927210A706"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_324E0E9068CC4993B82E360E74A4C62D"
@@ -1029,7 +1029,7 @@
             "Target" = "8:_0800B7E42B7F4B1D860847B4FD857451"
             "Folder" = "8:_84F03D6BCB3A47D981F9EEB8C870197C"
             "WorkingFolder" = "8:_3719D6D2AB5049B886E66CE79448E2E9"
-            "Icon" = "8:_13067F04976F4C19BEF49D456AC100E1"
+            "Icon" = "8:_8925664E87D34D9C8FBB0FB40806FEDE"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_9C28B7B7E67543869031AA3DD9A01A96"
@@ -1043,7 +1043,7 @@
             "Target" = "8:_0800B7E42B7F4B1D860847B4FD857451"
             "Folder" = "8:_3719D6D2AB5049B886E66CE79448E2E9"
             "WorkingFolder" = "8:_3719D6D2AB5049B886E66CE79448E2E9"
-            "Icon" = "8:_13067F04976F4C19BEF49D456AC100E1"
+            "Icon" = "8:_8925664E87D34D9C8FBB0FB40806FEDE"
             "Feature" = "8:"
             }
         }
@@ -1074,7 +1074,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_87A60E330F714BC1BF95742F00430D75"
+                            "Value" = "8:_E0438188A6B64EDFA928617197507860"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "ShowProgress"
@@ -1119,7 +1119,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_87A60E330F714BC1BF95742F00430D75"
+                            "Value" = "8:_E0438188A6B64EDFA928617197507860"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "UpdateText"
@@ -1164,7 +1164,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_87A60E330F714BC1BF95742F00430D75"
+                            "Value" = "8:_E0438188A6B64EDFA928617197507860"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -1196,7 +1196,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_87A60E330F714BC1BF95742F00430D75"
+                            "Value" = "8:_E0438188A6B64EDFA928617197507860"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "CopyrightWarning"
@@ -1245,7 +1245,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_87A60E330F714BC1BF95742F00430D75"
+                            "Value" = "8:_E0438188A6B64EDFA928617197507860"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "InstallAllUsersVisible"
@@ -1281,7 +1281,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_87A60E330F714BC1BF95742F00430D75"
+                            "Value" = "8:_E0438188A6B64EDFA928617197507860"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -1313,7 +1313,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_87A60E330F714BC1BF95742F00430D75"
+                            "Value" = "8:_E0438188A6B64EDFA928617197507860"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "ShowProgress"
@@ -1370,7 +1370,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_87A60E330F714BC1BF95742F00430D75"
+                            "Value" = "8:_E0438188A6B64EDFA928617197507860"
                             "UsePlugInResources" = "11:TRUE"
                             }
                             "CopyrightWarning"
@@ -1419,7 +1419,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_87A60E330F714BC1BF95742F00430D75"
+                            "Value" = "8:_E0438188A6B64EDFA928617197507860"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -1442,7 +1442,7 @@
                             "ContextData" = "8:Bitmap"
                             "Attributes" = "3:4"
                             "Setting" = "3:2"
-                            "Value" = "8:_87A60E330F714BC1BF95742F00430D75"
+                            "Value" = "8:_E0438188A6B64EDFA928617197507860"
                             "UsePlugInResources" = "11:TRUE"
                             }
                         }
@@ -1457,7 +1457,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_EEC280C6E14E4CCC9D51AB7C67C5CCE6"
             {
-            "SourcePath" = "8:..\\v2rayN\\obj\\Release\\V2rayN.exe"
+            "SourcePath" = "8:..\\v2rayN\\obj\\Debug\\V2rayN.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_3719D6D2AB5049B886E66CE79448E2E9"
