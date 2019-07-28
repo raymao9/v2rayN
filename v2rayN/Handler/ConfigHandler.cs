@@ -48,7 +48,7 @@ namespace v2rayN.Handler
                 config.inbound = new List<InItem>();
                 InItem inItem = new InItem();
                 inItem.protocol = "socks";
-                inItem.localPort = 31211;
+                inItem.localPort = 1080;
                 inItem.udpEnabled = true;
                 inItem.sniffingEnabled = true;
 
@@ -56,7 +56,7 @@ namespace v2rayN.Handler
 
                 //inItem = new InItem();
                 //inItem.protocol = "http";
-                //inItem.localPort = 31210;
+                //inItem.localPort = 1087;
                 //inItem.udpEnabled = true;
 
                 //config.inbound.Add(inItem);

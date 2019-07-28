@@ -39,6 +39,24 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_301BC8AB7711F5B03E515E1AE872CFA9"
+        "OwnerKey" = "8:_EEC280C6E14E4CCC9D51AB7C67C5CCE6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_301BC8AB7711F5B03E515E1AE872CFA9"
+        "OwnerKey" = "8:_C0D5C8BAE4A01193C84FD459EB9EAD14"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_32F010D3C40158005800BDB8D2913431"
+        "OwnerKey" = "8:_EEC280C6E14E4CCC9D51AB7C67C5CCE6"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_4444FD0F5D434A36BA4489393D91B130"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -53,18 +71,6 @@
         {
         "MsmKey" = "8:_6C3F55E9F51142348033FAF6CC408AC6"
         "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_6F23D7A87C61EE6112C98D66FD350F42"
-        "OwnerKey" = "8:_EEC280C6E14E4CCC9D51AB7C67C5CCE6"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_74433CA6F5F173AC5AC2A9531D2C2E6E"
-        "OwnerKey" = "8:_EEC280C6E14E4CCC9D51AB7C67C5CCE6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -87,18 +93,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_967F869B02B4E0CCE73C1FB61BF83339"
-        "OwnerKey" = "8:_EEC280C6E14E4CCC9D51AB7C67C5CCE6"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_967F869B02B4E0CCE73C1FB61BF83339"
-        "OwnerKey" = "8:_74433CA6F5F173AC5AC2A9531D2C2E6E"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_96830721A141426BADFAF2EEDB48DB30"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -107,6 +101,12 @@
         {
         "MsmKey" = "8:_AD36EF7CAF0745CAB06AD6687AB1530F"
         "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_C0D5C8BAE4A01193C84FD459EB9EAD14"
+        "OwnerKey" = "8:_EEC280C6E14E4CCC9D51AB7C67C5CCE6"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -172,19 +172,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_74433CA6F5F173AC5AC2A9531D2C2E6E"
+        "OwnerKey" = "8:_C0D5C8BAE4A01193C84FD459EB9EAD14"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_967F869B02B4E0CCE73C1FB61BF83339"
+        "OwnerKey" = "8:_301BC8AB7711F5B03E515E1AE872CFA9"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_6F23D7A87C61EE6112C98D66FD350F42"
+        "OwnerKey" = "8:_32F010D3C40158005800BDB8D2913431"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -286,7 +286,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:v4.6   "
+                "FrameworkVersion" = "8:v4.6    "
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://download.microsoft.com/download/3/5/9/35980F81-60F4-4DE3-88FC-8F962B97253B/NDP461-KB3102438-Web.exe"
                 }
@@ -374,6 +374,68 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_301BC8AB7711F5B03E515E1AE872CFA9"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:zxing, Version=0.16.2.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_301BC8AB7711F5B03E515E1AE872CFA9"
+                    {
+                    "Name" = "8:zxing.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:zxing.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_3719D6D2AB5049B886E66CE79448E2E9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_32F010D3C40158005800BDB8D2913431"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_32F010D3C40158005800BDB8D2913431"
+                    {
+                    "Name" = "8:Newtonsoft.Json.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:Newtonsoft.Json.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_3719D6D2AB5049B886E66CE79448E2E9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4444FD0F5D434A36BA4489393D91B130"
             {
             "SourcePath" = "8:..\\..\\..\\外部資源\\安裝包的附加内容\\v2ctl.exe"
@@ -432,68 +494,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_6F23D7A87C61EE6112C98D66FD350F42"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_6F23D7A87C61EE6112C98D66FD350F42"
-                    {
-                    "Name" = "8:Newtonsoft.Json.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:Newtonsoft.Json.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_3719D6D2AB5049B886E66CE79448E2E9"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_74433CA6F5F173AC5AC2A9531D2C2E6E"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:zxing.presentation, Version=0.16.2.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_74433CA6F5F173AC5AC2A9531D2C2E6E"
-                    {
-                    "Name" = "8:zxing.presentation.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:zxing.presentation.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_3719D6D2AB5049B886E66CE79448E2E9"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_853D7B1B6ADE430297654C16FF29C057"
@@ -556,37 +556,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_967F869B02B4E0CCE73C1FB61BF83339"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:zxing, Version=0.16.2.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL"
-                "ScatterAssemblies"
-                {
-                    "_967F869B02B4E0CCE73C1FB61BF83339"
-                    {
-                    "Name" = "8:zxing.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:zxing.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_3719D6D2AB5049B886E66CE79448E2E9"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_96830721A141426BADFAF2EEDB48DB30"
             {
             "SourcePath" = "8:..\\..\\..\\外部資源\\安裝包的附加内容\\geoip.dat"
@@ -625,6 +594,37 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C0D5C8BAE4A01193C84FD459EB9EAD14"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:zxing.presentation, Version=0.16.2.0, Culture=neutral, PublicKeyToken=4e88037ac681fe60, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_C0D5C8BAE4A01193C84FD459EB9EAD14"
+                    {
+                    "Name" = "8:zxing.presentation.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:zxing.presentation.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_3719D6D2AB5049B886E66CE79448E2E9"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_CBCBAD24A35E4461B4902CE5731058A8"
@@ -870,7 +870,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:v2rayN"
         "ProductCode" = "8:{28B9F582-5F37-492B-9CA0-3C5BDEB4A869}"
-        "PackageCode" = "8:{678F85C5-8015-4345-BC16-3D36165D912F}"
+        "PackageCode" = "8:{861F4B7E-2810-48BB-AA17-5C356A7B2FDB}"
         "UpgradeCode" = "8:{ED35ECBD-C596-4611-A7F8-5E03F261CC93}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -994,7 +994,7 @@
             {
             "Name" = "8:v2rayN"
             "Arguments" = "8:"
-            "Description" = "8:適用於 v2ray 代理類型的客戶端軟體"
+            "Description" = "8:V2ray client for Windows"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
@@ -1008,7 +1008,7 @@
             {
             "Name" = "8:v2rayN"
             "Arguments" = "8:"
-            "Description" = "8:適用於 v2ray 代理類型的客戶端軟體"
+            "Description" = "8:V2ray client for Windows"
             "ShowCmd" = "3:1"
             "IconIndex" = "3:0"
             "Transitive" = "11:FALSE"
@@ -1059,7 +1059,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_95AA213139EC4037862C386653714F69"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:进度"
+                    "DisplayName" = "8:進度"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdProgressDlg.wid"
@@ -1104,7 +1104,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_8222C35662CE4375A7C4F6F31064EC71"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:已完成"
+                    "DisplayName" = "8:已經完成"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdFinishedDlg.wid"
@@ -1149,7 +1149,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_46445E54E22E4A9DA50AAD3300067F0E"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:已完成"
+                    "DisplayName" = "8:已經完成"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFinishedDlg.wid"
@@ -1181,7 +1181,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_28B4527EF37E470A9467F46E840AC701"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:欢迎使用"
+                    "DisplayName" = "8:歡迎"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdWelcomeDlg.wid"
@@ -1230,7 +1230,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_A38904355784468FB64DB42B648BCF8E"
                     {
                     "Sequence" = "3:200"
-                    "DisplayName" = "8:安装文件夹"
+                    "DisplayName" = "8:安裝資料夾"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdFolderDlg.wid"
@@ -1266,7 +1266,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_E3557608C77D4E879908634BC3E60EB5"
                     {
                     "Sequence" = "3:300"
-                    "DisplayName" = "8:确认安装"
+                    "DisplayName" = "8:確認安裝"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdConfirmDlg.wid"
@@ -1298,7 +1298,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_5412DD9C91F54E6A82DCF909F1309673"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:进度"
+                    "DisplayName" = "8:進度"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminProgressDlg.wid"
@@ -1355,7 +1355,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_0344FFDFA5724F6BA007CE5EAFCE7F83"
                     {
                     "Sequence" = "3:100"
-                    "DisplayName" = "8:欢迎使用"
+                    "DisplayName" = "8:歡迎"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminWelcomeDlg.wid"
@@ -1404,7 +1404,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_1DA7263E3CC246F29EA52547A1BE50BD"
                     {
                     "Sequence" = "3:300"
-                    "DisplayName" = "8:确认安装"
+                    "DisplayName" = "8:確認安裝"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminConfirmDlg.wid"
@@ -1427,7 +1427,7 @@
                     "{688940B3-5CA9-4162-8DEE-2993FA9D8CBC}:_26BD90AA1B384CFAB1CB63A4F44FDF4F"
                     {
                     "Sequence" = "3:200"
-                    "DisplayName" = "8:安装文件夹"
+                    "DisplayName" = "8:安裝資料夾"
                     "UseDynamicProperties" = "11:TRUE"
                     "IsDependency" = "11:FALSE"
                     "SourcePath" = "8:<VsdDialogDir>\\VsdAdminFolderDlg.wid"
@@ -1457,7 +1457,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_EEC280C6E14E4CCC9D51AB7C67C5CCE6"
             {
-            "SourcePath" = "8:..\\v2rayN\\obj\\Debug\\V2rayN.exe"
+            "SourcePath" = "8:..\\v2rayN\\obj\\Release\\V2rayN.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_3719D6D2AB5049B886E66CE79448E2E9"
