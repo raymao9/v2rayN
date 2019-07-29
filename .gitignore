@@ -1,4 +1,4 @@
 .vs
-/Setup/*
-/v2rayN/bin/*
+Setup/*
+v2rayN/bin/*
 *.exe
