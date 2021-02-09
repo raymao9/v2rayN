@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nanamao\\Documents\\Projects\\v2rayN_3.29\\v2rayN\\v2rayN\\v2rayN.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nanamao\\Documents\\Projects\\v2rayN_3.29\\v2rayN\\v2rayN\\v2rayN.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nanamao\\Documents\\Projects\\v2rayN_3.29\\v2rayN\\v2rayN\\v2rayN.csproj",
+        "projectName": "v2rayN",
+        "projectPath": "C:\\Users\\nanamao\\Documents\\Projects\\v2rayN_3.29\\v2rayN\\v2rayN\\v2rayN.csproj",
+        "packagesPath": "C:\\Users\\nanamao\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nanamao\\Documents\\Projects\\v2rayN_3.29\\v2rayN\\v2rayN\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\nanamao\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.11.4, )"
+            },
+            "Grpc.Core": {
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.27.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.5, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

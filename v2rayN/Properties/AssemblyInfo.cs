@@ -1,17 +1,16 @@
 ﻿using System.Reflection;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // 有关程序集的常规信息通过以下
 // 特性集控制。更改这些特性值可修改
 // 与程序集关联的信息。
-[assembly: AssemblyTitle("V2rayN for Windows")]
-[assembly: AssemblyDescription("A v2ray proxy client for Windows")]
+[assembly: AssemblyTitle("v2rayN")]
+[assembly: AssemblyDescription("高強度加密連接，兼顧您的隱私與自由")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("RayFish")]
+[assembly: AssemblyCompany("RAYFISH, LLC")]
 [assembly: AssemblyProduct("v2rayN")]
-[assembly: AssemblyCopyright("Copyright © Link to Fish 2016-2019")]
-[assembly: AssemblyTrademark("RayFish")]
+[assembly: AssemblyCopyright("Copyright © 2019-2020 (GPLv3)")]
+[assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
 // 将 ComVisible 设置为 false 使此程序集中的类型
@@ -33,4 +32,4 @@ using System.Runtime.InteropServices;
 // 方法是按如下所示使用“*”:
 //[assembly: AssemblyVersion("1.0.*")]
 //[assembly: AssemblyVersion("1.0.0")]
-[assembly: AssemblyFileVersion("2.29")]
+[assembly: AssemblyFileVersion("3.29.1")]

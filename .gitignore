@@ -1,4 +1,5 @@
 .vs
-Setup
 v2rayN/bin
+Installer/Release
+Installer/Debug
 *.exe

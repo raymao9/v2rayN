@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using v2rayN.Base;
 using v2rayN.Mode;
 
 namespace v2rayN.Forms
@@ -35,8 +36,8 @@ namespace v2rayN.Forms
         {
             if (subItem != null)
             {
-                subItem.remarks = txtRemarks.Text.Trim();
-                subItem.url = txtUrl.Text.Trim();
+                subItem.remarks = txtRemarks.Text.TrimEx();
+                subItem.url = txtUrl.Text.TrimEx();
                 subItem.enabled = chkEnabled.Checked;
             }
         }
@@ -53,10 +54,7 @@ namespace v2rayN.Forms
                 subItem.url = string.Empty;
             }
 
-            if (OnButtonClicked != null)
-            {
-                OnButtonClicked(sender, e);
-            }
+            OnButtonClicked?.Invoke(sender, e);
         }
     }
 }

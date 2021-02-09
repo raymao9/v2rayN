@@ -5,10 +5,8 @@ using v2rayN.Mode;
 
 namespace v2rayN.Forms
 {
-    public partial class AddServer4Form : BaseForm
-    {
-        public int EditIndex { get; set; }
-        VmessItem vmessItem = null;
+    public partial class AddServer4Form : BaseServerForm
+    { 
 
         public AddServer4Form()
         {
@@ -36,6 +34,8 @@ namespace v2rayN.Forms
         {
             txtAddress.Text = vmessItem.address;
             txtPort.Text = vmessItem.port.ToString();
+            txtId.Text = vmessItem.id;
+            txtSecurity.Text = vmessItem.security;
             txtRemarks.Text = vmessItem.remarks;
         }
 
@@ -47,6 +47,8 @@ namespace v2rayN.Forms
         {
             txtAddress.Text = "";
             txtPort.Text = "";
+            txtId.Text = "";
+            txtSecurity.Text = "";
             txtRemarks.Text = "";
         }
 
@@ -54,6 +56,8 @@ namespace v2rayN.Forms
         {
             string address = txtAddress.Text;
             string port = txtPort.Text;
+            string id = txtId.Text;
+            string security = txtSecurity.Text;
             string remarks = txtRemarks.Text;
 
             if (Utils.IsNullOrEmpty(address))
@@ -69,6 +73,8 @@ namespace v2rayN.Forms
 
             vmessItem.address = address;
             vmessItem.port = Utils.ToInt(port);
+            vmessItem.id = id;
+            vmessItem.security = security;
             vmessItem.remarks = remarks;
 
             if (ConfigHandler.AddSocksServer(ref config, vmessItem, EditIndex) == 0)
@@ -77,7 +83,7 @@ namespace v2rayN.Forms
             }
             else
             {
-                UI.Show(UIRes.I18N("OperationFailed"));
+                UI.ShowWarning(UIRes.I18N("OperationFailed"));
             }
         }
         private void btnClose_Click(object sender, EventArgs e)
@@ -102,16 +108,17 @@ namespace v2rayN.Forms
         {
             ClearServer();
 
-            string msg;
-            VmessItem vmessItem = V2rayConfigHandler.ImportFromClipboardConfig(Utils.GetClipboardData(), out msg);
+            VmessItem vmessItem = V2rayConfigHandler.ImportFromClipboardConfig(Utils.GetClipboardData(), out string msg);
             if (vmessItem == null)
             {
-                UI.Show(msg);
+                UI.ShowWarning(msg);
                 return;
             }
 
             txtAddress.Text = vmessItem.address;
             txtPort.Text = vmessItem.port.ToString();
+            txtSecurity.Text = vmessItem.security;
+            txtId.Text = vmessItem.id;
             txtRemarks.Text = vmessItem.remarks;
         }        
 

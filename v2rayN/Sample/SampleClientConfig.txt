@@ -1,25 +1,33 @@
-﻿{
+﻿{	 
+	"log": {
+		"access": "",
+		"error": "",
+		"loglevel": "error"
+	},
 	"log": {
 		"access": "Vaccess.log",
 		"error": "Verror.log",
 		"loglevel": "warning"
 	},
-	"inbounds": [{
-		"port": 10808,
-		"protocol": "socks",
-		"listen": "127.0.0.1",
-		"settings": {
-			"auth": "noauth",
-			"udp": true
-		},
-		"sniffing": {
-			"enabled": true,
-			"destOverride": [
-				"http",
-				"tls"
-			]
+	"inbounds": [
+		{
+			"tag": "proxy",
+			"port": 10808,
+			"protocol": "socks",
+			"listen": "127.0.0.1",
+			"settings": {
+				"auth": "noauth",
+				"udp": true
+			},
+			"sniffing": {
+				"enabled": true,
+				"destOverride": [
+					"http",
+					"tls"
+				]
+			}
 		}
-	}],
+	],
 	"outbounds": [{
 			"tag": "proxy",
 			"protocol": "vmess",
@@ -66,6 +74,12 @@
 	],
 	"routing": {
 		"domainStrategy": "IPIfNonMatch",
-		"rules": []
+		"rules": [
+				{
+                    "inboundTag": ["api"],
+                    "outboundTag": "api",
+                    "type": "field"
+                }
+		]
 	}
 }

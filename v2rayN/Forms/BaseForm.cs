@@ -35,5 +35,6 @@ namespace v2rayN.Forms
                 Utils.SaveLog($"Loading custom icon failed: {e.Message}");
             }
         }
+
     }
 }

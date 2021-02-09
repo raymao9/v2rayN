@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Drawing;
-using System.Drawing.Text;
 using System.Windows.Forms;
 using v2rayN.Handler;
+using v2rayN.Base;
+using v2rayN.HttpProxyHandler;
 
 namespace v2rayN.Forms
 {
@@ -23,6 +23,8 @@ namespace v2rayN.Forms
             InitKCP();
 
             InitGUI();
+
+            InitUserPAC();
         }
 
         /// <summary>
@@ -44,6 +46,10 @@ namespace v2rayN.Forms
                 cmbprotocol.Text = config.inbound[0].protocol.ToString();
                 chkudpEnabled.Checked = config.inbound[0].udpEnabled;
                 chksniffingEnabled.Checked = config.inbound[0].sniffingEnabled;
+
+                txtlocalPort2.Text = $"{config.inbound[0].localPort + 1}";
+                cmbprotocol2.Text = Global.InboundHttp;
+
                 if (config.inbound.Count > 1)
                 {
                     txtlocalPort2.Text = config.inbound[1].localPort.ToString();
@@ -61,6 +67,10 @@ namespace v2rayN.Forms
 
             //remoteDNS
             txtremoteDNS.Text = config.remoteDNS;
+
+            cmblistenerType.SelectedIndex = (int)config.listenerType;
+
+            chkdefAllowInsecure.Checked = config.defAllowInsecure;
         }
 
         /// <summary>
@@ -70,8 +80,7 @@ namespace v2rayN.Forms
         {
             //路由
             cmbdomainStrategy.Text = config.domainStrategy;
-            int routingMode = 0;
-            int.TryParse(config.routingMode, out routingMode);
+            int.TryParse(config.routingMode, out int routingMode);
             cmbroutingMode.SelectedIndex = routingMode;
 
             txtUseragent.Text = Utils.List2String(config.useragent, true);
@@ -105,7 +114,41 @@ namespace v2rayN.Forms
             txturlGFWList.Text = config.urlGFWList;
 
             chkAllowLANConn.Checked = config.allowLANConn;
+            chkEnableStatistics.Checked = config.enableStatistics;
+            chkKeepOlderDedupl.Checked = config.keepOlderDedupl;
 
+
+
+
+            ComboItem[] cbSource = new ComboItem[]
+            {
+                new ComboItem{ID = (int)Global.StatisticsFreshRate.quick, Text = UIRes.I18N("QuickFresh")},
+                new ComboItem{ID = (int)Global.StatisticsFreshRate.medium, Text = UIRes.I18N("MediumFresh")},
+                new ComboItem{ID = (int)Global.StatisticsFreshRate.slow, Text = UIRes.I18N("SlowFresh")},
+            };
+            cbFreshrate.DataSource = cbSource;
+
+            cbFreshrate.DisplayMember = "Text";
+            cbFreshrate.ValueMember = "ID";
+
+            switch (config.statisticsFreshRate)
+            {
+                case (int)Global.StatisticsFreshRate.quick:
+                    cbFreshrate.SelectedItem = cbSource[0];
+                    break;
+                case (int)Global.StatisticsFreshRate.medium:
+                    cbFreshrate.SelectedItem = cbSource[1];
+                    break;
+                case (int)Global.StatisticsFreshRate.slow:
+                    cbFreshrate.SelectedItem = cbSource[2];
+                    break;
+            }
+
+        }
+
+        private void InitUserPAC()
+        {
+            txtuserPacRule.Text = Utils.List2String(config.userPacRule, true);
         }
 
         private void btnOK_Click(object sender, EventArgs e)
@@ -130,13 +173,18 @@ namespace v2rayN.Forms
                 return;
             }
 
+            if (SaveUserPAC() != 0)
+            {
+                return;
+            }
+
             if (ConfigHandler.SaveConfig(ref config) == 0)
             {
                 this.DialogResult = DialogResult.OK;
             }
             else
             {
-                UI.Show(UIRes.I18N("OperationFailed"));
+                UI.ShowWarning(UIRes.I18N("OperationFailed"));
             }
         }
 
@@ -148,14 +196,14 @@ namespace v2rayN.Forms
         {
             //日志
             bool logEnabled = chklogEnabled.Checked;
-            string loglevel = cmbloglevel.Text.Trim();
+            string loglevel = cmbloglevel.Text.TrimEx();
 
             //Mux
             bool muxEnabled = chkmuxEnabled.Checked;
 
             //本地监听
-            string localPort = txtlocalPort.Text.Trim();
-            string protocol = cmbprotocol.Text.Trim();
+            string localPort = txtlocalPort.Text.TrimEx();
+            string protocol = cmbprotocol.Text.TrimEx();
             bool udpEnabled = chkudpEnabled.Checked;
             bool sniffingEnabled = chksniffingEnabled.Checked;
             if (Utils.IsNullOrEmpty(localPort) || !Utils.IsNumberic(localPort))
@@ -174,8 +222,8 @@ namespace v2rayN.Forms
             config.inbound[0].sniffingEnabled = sniffingEnabled;
 
             //本地监听2
-            string localPort2 = txtlocalPort2.Text.Trim();
-            string protocol2 = cmbprotocol2.Text.Trim();
+            string localPort2 = txtlocalPort2.Text.TrimEx();
+            string protocol2 = cmbprotocol2.Text.TrimEx();
             bool udpEnabled2 = chkudpEnabled2.Checked;
             bool sniffingEnabled2 = chksniffingEnabled2.Checked;
             if (chkAllowIn2.Checked)
@@ -215,7 +263,11 @@ namespace v2rayN.Forms
             config.muxEnabled = muxEnabled;
 
             //remoteDNS
-            config.remoteDNS = txtremoteDNS.Text.Trim();
+            config.remoteDNS = txtremoteDNS.Text.TrimEx();
+
+            config.listenerType = (ListenerType)Enum.ToObject(typeof(ListenerType), cmblistenerType.SelectedIndex);
+
+            config.defAllowInsecure = chkdefAllowInsecure.Checked;
 
             return 0;
         }
@@ -230,9 +282,9 @@ namespace v2rayN.Forms
             string domainStrategy = cmbdomainStrategy.Text;
             string routingMode = cmbroutingMode.SelectedIndex.ToString();
 
-            string useragent = txtUseragent.Text.Trim();
-            string userdirect = txtUserdirect.Text.Trim();
-            string userblock = txtUserblock.Text.Trim();
+            string useragent = txtUseragent.Text.TrimEx();
+            string userdirect = txtUserdirect.Text.TrimEx();
+            string userblock = txtUserblock.Text.TrimEx();
 
             config.domainStrategy = domainStrategy;
             config.routingMode = routingMode;
@@ -250,12 +302,12 @@ namespace v2rayN.Forms
         /// <returns></returns>
         private int SaveKCP()
         {
-            string mtu = txtKcpmtu.Text.Trim();
-            string tti = txtKcptti.Text.Trim();
-            string uplinkCapacity = txtKcpuplinkCapacity.Text.Trim();
-            string downlinkCapacity = txtKcpdownlinkCapacity.Text.Trim();
-            string readBufferSize = txtKcpreadBufferSize.Text.Trim();
-            string writeBufferSize = txtKcpwriteBufferSize.Text.Trim();
+            string mtu = txtKcpmtu.Text.TrimEx();
+            string tti = txtKcptti.Text.TrimEx();
+            string uplinkCapacity = txtKcpuplinkCapacity.Text.TrimEx();
+            string downlinkCapacity = txtKcpdownlinkCapacity.Text.TrimEx();
+            string readBufferSize = txtKcpreadBufferSize.Text.TrimEx();
+            string writeBufferSize = txtKcpwriteBufferSize.Text.TrimEx();
             bool congestion = chkKcpcongestion.Checked;
 
             if (Utils.IsNullOrEmpty(mtu) || !Utils.IsNumberic(mtu)
@@ -289,13 +341,36 @@ namespace v2rayN.Forms
             Utils.SetAutoRun(chkAutoRun.Checked);
 
             //自定义GFWList
-            config.urlGFWList = txturlGFWList.Text.Trim();
+            config.urlGFWList = txturlGFWList.Text.TrimEx();
 
             config.allowLANConn = chkAllowLANConn.Checked;
 
+            bool lastEnableStatistics = config.enableStatistics;
+            config.enableStatistics = chkEnableStatistics.Checked;
+            config.statisticsFreshRate = (int)cbFreshrate.SelectedValue;
+            config.keepOlderDedupl = chkKeepOlderDedupl.Checked;
+
+            //if(lastEnableStatistics != config.enableStatistics)
+            //{
+            //    /// https://stackoverflow.com/questions/779405/how-do-i-restart-my-c-sharp-winform-application
+            //    // Shut down the current app instance.
+            //    Application.Exit();
+
+            //    // Restart the app passing "/restart [processId]" as cmd line args
+            //    Process.Start(Application.ExecutablePath, "/restart " + Process.GetCurrentProcess().Id);
+            //}
             return 0;
         }
 
+        private int SaveUserPAC()
+        {
+            string userPacRule = txtuserPacRule.Text.TrimEx();
+            userPacRule = userPacRule.Replace("\"", "");
+
+            config.userPacRule = Utils.String2List(userPacRule);
+
+            return 0;
+        }
         private void btnClose_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.Cancel;
@@ -315,25 +390,34 @@ namespace v2rayN.Forms
 
         private void btnSetDefRountingRule_Click(object sender, EventArgs e)
         {
-            var lstUrl = new List<string>();
-            lstUrl.Add(Global.CustomRoutingListUrl + "proxy");
-            lstUrl.Add(Global.CustomRoutingListUrl + "direct");
-            lstUrl.Add(Global.CustomRoutingListUrl + "block");
+            txtUseragent.Text = Utils.GetEmbedText(Global.CustomRoutingFileName + Global.agentTag);
+            txtUserdirect.Text = Utils.GetEmbedText(Global.CustomRoutingFileName + Global.directTag);
+            txtUserblock.Text = Utils.GetEmbedText(Global.CustomRoutingFileName + Global.blockTag);
+            cmbroutingMode.SelectedIndex = 3;
 
-            var lstTxt = new List<TextBox>();
-            lstTxt.Add(txtUseragent);
-            lstTxt.Add(txtUserdirect);
-            lstTxt.Add(txtUserblock);
+            List<string> lstUrl = new List<string>
+            {
+                Global.CustomRoutingListUrl + Global.agentTag,
+                Global.CustomRoutingListUrl + Global.directTag,
+                Global.CustomRoutingListUrl + Global.blockTag
+            };
+
+            List<TextBox> lstTxt = new List<TextBox>
+            {
+                txtUseragent,
+                txtUserdirect,
+                txtUserblock
+            };
 
             for (int k = 0; k < lstUrl.Count; k++)
             {
-                var txt = lstTxt[k];
-                V2rayUpdateHandle v2rayUpdateHandle3 = new V2rayUpdateHandle();
-                v2rayUpdateHandle3.UpdateCompleted += (sender2, args) =>
+                TextBox txt = lstTxt[k];
+                DownloadHandle downloadHandle = new DownloadHandle();
+                downloadHandle.UpdateCompleted += (sender2, args) =>
                 {
                     if (args.Success)
                     {
-                        var result = args.Msg;
+                        string result = args.Msg;
                         if (Utils.IsNullOrEmpty(result))
                         {
                             return;
@@ -345,17 +429,34 @@ namespace v2rayN.Forms
                         AppendText(false, args.Msg);
                     }
                 };
-                v2rayUpdateHandle3.Error += (sender2, args) =>
+                downloadHandle.Error += (sender2, args) =>
                 {
                     AppendText(true, args.GetException().Message);
                 };
 
-                v2rayUpdateHandle3.WebDownloadString(lstUrl[k]);
+                downloadHandle.WebDownloadString(lstUrl[k]);
             }
         }
         void AppendText(bool notify, string text)
         {
             labRoutingTips.Text = text;
+        }
+
+        private void linkLabelRoutingDoc_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://www.v2fly.org/config/routing.html");
+        }
+    }
+
+    class ComboItem
+    {
+        public int ID
+        {
+            get; set;
+        }
+        public string Text
+        {
+            get; set;
         }
     }
 }

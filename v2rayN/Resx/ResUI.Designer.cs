@@ -19,7 +19,7 @@ namespace v2rayN.Resx {
     // 类通过类似于 ResGen 或 Visual Studio 的工具自动生成的。
     // 若要添加或移除成员，请编辑 .ResX 文件，然后重新运行 ResGen
     // (以 /str 作为命令选项)，或重新生成 VS 项目。
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "15.0.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "16.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class ResUI {
@@ -47,8 +47,8 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   重写当前线程的 CurrentUICulture 属性
-        ///   重写当前线程的 CurrentUICulture 属性。
+        ///   重写当前线程的 CurrentUICulture 属性，对
+        ///   使用此强类型资源类的所有资源查找执行重写。
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
         internal static global::System.Globalization.CultureInfo Culture {
@@ -97,7 +97,7 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 注意：自定義節點設定檔完全依賴您自己的設定，不一定適用本軟體所有功能。 的本地化字符串。
+        ///   查找类似 注意：自定義節點設定檔完全依賴您自己的設定，不一定適用本軟體所有功能 的本地化字符串。
         /// </summary>
         internal static string CustomServerTips {
             get {
@@ -106,7 +106,25 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 更新需要下載部分檔案，您確認要下載嗎？ 的本地化字符串。
+        ///   查找类似 正在下載... 的本地化字符串。
+        /// </summary>
+        internal static string Downloading {
+            get {
+                return ResourceManager.GetString("Downloading", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 下載速度 的本地化字符串。
+        /// </summary>
+        internal static string downloadSpeed {
+            get {
+                return ResourceManager.GetString("downloadSpeed", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 更新需要下載部分檔案，您確認要下載嗎？{0} 的本地化字符串。
         /// </summary>
         internal static string DownloadYesNo {
             get {
@@ -259,6 +277,24 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
+        ///   查找类似 {0} 已是最新版本。 的本地化字符串。
+        /// </summary>
+        internal static string IsLatestCore {
+            get {
+                return ResourceManager.GetString("IsLatestCore", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 {0} 已是最新版本。 的本地化字符串。
+        /// </summary>
+        internal static string IsLatestN {
+            get {
+                return ResourceManager.GetString("IsLatestN", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 節點地址 的本地化字符串。
         /// </summary>
         internal static string LvAddress {
@@ -322,11 +358,56 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
+        ///   查找类似 今日下載 的本地化字符串。
+        /// </summary>
+        internal static string LvTodayDownloadDataAmount {
+            get {
+                return ResourceManager.GetString("LvTodayDownloadDataAmount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 今日上傳 的本地化字符串。
+        /// </summary>
+        internal static string LvTodayUploadDataAmount {
+            get {
+                return ResourceManager.GetString("LvTodayUploadDataAmount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 總下載 的本地化字符串。
+        /// </summary>
+        internal static string LvTotalDownloadDataAmount {
+            get {
+                return ResourceManager.GetString("LvTotalDownloadDataAmount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 總上傳 的本地化字符串。
+        /// </summary>
+        internal static string LvTotalUploadDataAmount {
+            get {
+                return ResourceManager.GetString("LvTotalUploadDataAmount", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 傳輸協議 的本地化字符串。
         /// </summary>
         internal static string LvTransportProtocol {
             get {
                 return ResourceManager.GetString("LvTransportProtocol", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 中等 的本地化字符串。
+        /// </summary>
+        internal static string MediumFresh {
+            get {
+                return ResourceManager.GetString("MediumFresh", resourceCulture);
             }
         }
         
@@ -340,7 +421,7 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 v2rayCore 下載成功 的本地化字符串。
+        ///   查找类似 V2ray 核心下載成功 的本地化字符串。
         /// </summary>
         internal static string MsgDownloadV2rayCoreSuccessfully {
             get {
@@ -394,7 +475,16 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 v2rayCore 解析成功 的本地化字符串。
+        ///   查找类似 {0} 解析成功 的本地化字符串。
+        /// </summary>
+        internal static string MsgParsingSuccessfully {
+            get {
+                return ResourceManager.GetString("MsgParsingSuccessfully", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 V2ray 核心解析成功 的本地化字符串。
         /// </summary>
         internal static string MsgParsingV2rayCoreSuccessfully {
             get {
@@ -412,11 +502,38 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
+        ///   查找类似 PAC 簡化成功 的本地化字符串。
+        /// </summary>
+        internal static string MsgSimplifyPAC1 {
+            get {
+                return ResourceManager.GetString("MsgSimplifyPAC1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找类似 正在獲取節點訂閱內容 的本地化字符串。
         /// </summary>
         internal static string MsgStartGettingSubscriptions {
             get {
                 return ResourceManager.GetString("MsgStartGettingSubscriptions", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 正在獲取節點訂閱內容 的本地化字符串。
+        /// </summary>
+        internal static string MsgStartGettingSubscriptions1 {
+            get {
+                return ResourceManager.GetString("MsgStartGettingSubscriptions1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 開始更新 {0}... 的本地化字符串。
+        /// </summary>
+        internal static string MsgStartUpdating {
+            get {
+                return ResourceManager.GetString("MsgStartUpdating", resourceCulture);
             }
         }
         
@@ -430,7 +547,16 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 開始更新 v2rayCore... 的本地化字符串。
+        ///   查找类似 開始更新 PAC... 的本地化字符串。
+        /// </summary>
+        internal static string MsgStartUpdatingPAC1 {
+            get {
+                return ResourceManager.GetString("MsgStartUpdatingPAC1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 開始更新 V2ray 核心... 的本地化字符串。
         /// </summary>
         internal static string MsgStartUpdatingV2rayCore {
             get {
@@ -475,7 +601,7 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 v2rayCore 更新成功 的本地化字符串。
+        ///   查找类似 V2ray 核心更新成功 的本地化字符串。
         /// </summary>
         internal static string MsgUpdateV2rayCoreSuccessfully {
             get {
@@ -484,7 +610,7 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 v2rayCore 更新成功！正在重啟服務... 的本地化字符串。
+        ///   查找类似 V2ray 核心更新成功！正在重啟服務... 的本地化字符串。
         /// </summary>
         internal static string MsgUpdateV2rayCoreSuccessfullyMore {
             get {
@@ -493,7 +619,7 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 此功能依賴全局代理，請先調整您的路由模式！ 的本地化字符串。
+        ///   查找类似 此功能依賴全局代理，請先調整您的路由模式 的本地化字符串。
         /// </summary>
         internal static string NeedHttpGlobalProxy {
             get {
@@ -520,7 +646,7 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 未安裝 v2rayCore，請利用 [線上更新] 功能自動下載 的本地化字符串。
+        ///   查找类似 未找到 V2ray-core，下載點： {0} 的本地化字符串。
         /// </summary>
         internal static string NotFoundCore {
             get {
@@ -529,7 +655,7 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 掃描完成，未發現有效 QR 碼！ 的本地化字符串。
+        ///   查找类似 掃描完成，未發現有效 QR 碼 的本地化字符串。
         /// </summary>
         internal static string NoValidQRcodeFound {
             get {
@@ -574,11 +700,29 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 請先選擇節點！ 的本地化字符串。
+        ///   查找类似 請先選擇節點 的本地化字符串。
         /// </summary>
         internal static string PleaseSelectServer {
             get {
                 return ResourceManager.GetString("PleaseSelectServer", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 快 的本地化字符串。
+        /// </summary>
+        internal static string QuickFresh {
+            get {
+                return ResourceManager.GetString("QuickFresh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 已清理重複的節點。原有節點數量 {0}，現有節點數量 {1}. 的本地化字符串。
+        /// </summary>
+        internal static string RemoveDuplicateServerResult {
+            get {
+                return ResourceManager.GetString("RemoveDuplicateServerResult", resourceCulture);
             }
         }
         
@@ -619,11 +763,29 @@ namespace v2rayN.Resx {
         }
         
         /// <summary>
-        ///   查找类似 注意：此功能依賴全局代理，您可於測速完成後重新選擇其他路由模式。 的本地化字符串。
+        ///   查找类似 慢 的本地化字符串。
+        /// </summary>
+        internal static string SlowFresh {
+            get {
+                return ResourceManager.GetString("SlowFresh", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 注意：此功能依賴全局代理，您可於測速完成後重新選擇其他路由模式 的本地化字符串。
         /// </summary>
         internal static string SpeedServerTips {
             get {
                 return ResourceManager.GetString("SpeedServerTips", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 PAC 服務啟動失敗，請用管理員身份啟動 的本地化字符串。
+        /// </summary>
+        internal static string StartPacFailed {
+            get {
+                return ResourceManager.GetString("StartPacFailed", resourceCulture);
             }
         }
         
@@ -670,6 +832,15 @@ namespace v2rayN.Resx {
         internal static string SuccessfullyImportedServerViaScan {
             get {
                 return ResourceManager.GetString("SuccessfullyImportedServerViaScan", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   查找类似 當前所選節點的真連接延遲：{0} 的本地化字符串。
+        /// </summary>
+        internal static string TestMeOutput {
+            get {
+                return ResourceManager.GetString("TestMeOutput", resourceCulture);
             }
         }
     }

@@ -22,6 +22,17 @@ namespace v2rayN.Mode
         public List<Outbounds> outbounds { get; set; }
 
         /// <summary>
+        /// 统计需要， 空对象
+        /// </summary>
+        public Stats stats { get; set; }
+       
+        /// </summary>
+        public API api { get; set; }
+
+        /// </summary>
+        public Policy policy;
+
+        /// <summary>
         /// DNS 配置
         /// </summary>
         public Dns dns { get; set; }
@@ -29,6 +40,25 @@ namespace v2rayN.Mode
         /// 路由配置
         /// </summary>
         public Routing routing { get; set; }
+    }
+
+    public class Stats { };
+
+    public class API
+    {
+        public string tag { get; set; }
+        public List<string> services { get; set; }
+    }
+
+    public class Policy
+    {
+        public SystemPolicy system;
+    }
+
+    public class SystemPolicy
+    {
+        public bool statsInboundUplink;
+        public bool statsInboundDownlink;
     }
 
     public class Log
@@ -49,6 +79,7 @@ namespace v2rayN.Mode
 
     public class Inbounds
     {
+        public string tag { get; set; }
         /// <summary>
         /// 
         /// </summary>
@@ -93,9 +124,21 @@ namespace v2rayN.Mode
         public string ip { get; set; }
 
         /// <summary>
+        /// api 使用
+        /// </summary>
+        public string address { get; set; }
+
+        /// <summary>
         /// 
         /// </summary>
         public List<UsersItem> clients { get; set; }
+
+        
+        /// <summary>
+        /// VLESS
+        /// </summary>
+        public string decryption { get; set; }
+        
     }
 
     public class UsersItem
@@ -116,6 +159,16 @@ namespace v2rayN.Mode
         /// 
         /// </summary>
         public string security { get; set; }
+
+        /// <summary>
+        /// VLESS
+        /// </summary>
+        public string encryption { get; set; }
+
+        /// <summary>
+        /// VLESS
+        /// </summary>
+        public string flow { get; set; }         
     }
     public class Sniffing
     {
@@ -215,7 +268,29 @@ namespace v2rayN.Mode
         /// 
         /// </summary>
         public int level { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public List<SocksUsersItem> users { get; set; }
     }
+
+    public class SocksUsersItem
+    {
+        /// <summary>
+        /// 
+        /// </summary>
+        public string user { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public string pass { get; set; }
+        /// <summary>
+        /// 
+        /// </summary>
+        public int level { get; set; }
+    }
+
 
     public class Mux
     {
@@ -223,6 +298,11 @@ namespace v2rayN.Mode
         /// 
         /// </summary>
         public bool enabled { get; set; }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        public int concurrency { get; set; }
     }
 
     public class Response
@@ -251,6 +331,8 @@ namespace v2rayN.Mode
         /// 
         /// </summary>
         public string port { get; set; }
+
+        public List<string> inboundTag { get; set; }
         /// <summary>
         /// 
         /// </summary>
@@ -316,7 +398,12 @@ namespace v2rayN.Mode
         /// QUIC
         /// </summary>
         public QuicSettings quicSettings { get; set; }
-        
+
+        /// <summary>
+        /// VLESS xtls
+        /// </summary>
+        public TlsSettings xtlsSettings { get; set; }
+
     }
 
     public class TlsSettings
@@ -333,11 +420,7 @@ namespace v2rayN.Mode
     }
 
     public class TcpSettings
-    {
-        /// <summary>
-        /// 是否重用 TCP 连接
-        /// </summary>
-        public bool connectionReuse { get; set; }
+    {         
         /// <summary>
         /// 数据包头部伪装设置
         /// </summary>
@@ -394,15 +477,14 @@ namespace v2rayN.Mode
         /// 
         /// </summary>
         public Header header { get; set; }
-    }
-
-    public class WsSettings
-    {
         /// <summary>
         /// 
         /// </summary>
-        public bool connectionReuse { get; set; }
+        public string seed { get; set; }
+    }
 
+    public class WsSettings
+    {      
         /// <summary>
         /// 
         /// </summary>

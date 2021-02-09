@@ -123,8 +123,38 @@
   <data name="BatchExportURLSuccessfully" xml:space="preserve">
     <value>批次匯出所選節點 URL 至剪貼簿已完成</value>
   </data>
+  <data name="CheckServerSettings" xml:space="preserve">
+    <value>請先檢查伺服器設定</value>
+  </data>
+  <data name="ConfigurationFormatIncorrect" xml:space="preserve">
+    <value>設定檔格式有誤</value>
+  </data>
+  <data name="CustomServerTips" xml:space="preserve">
+    <value>注意：自定義節點設定檔完全依賴您自己的設定，不一定適用本軟體所有功能</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>正在下載...</value>
+  </data>
+  <data name="downloadSpeed" xml:space="preserve">
+    <value>下載速度</value>
+  </data>
+  <data name="DownloadYesNo" xml:space="preserve">
+    <value>更新需要下載部分檔案，您確認要下載嗎？{0}</value>
+  </data>
+  <data name="FailedConversionConfiguration" xml:space="preserve">
+    <value>節點設定檔轉換失敗</value>
+  </data>
+  <data name="FailedGenDefaultConfiguration" xml:space="preserve">
+    <value>預設節點設定檔創建失敗</value>
+  </data>
+  <data name="FailedGetDefaultConfiguration" xml:space="preserve">
+    <value>預設節點設定檔獲取失敗</value>
+  </data>
   <data name="FailedImportedCustomServer" xml:space="preserve">
     <value>自定義節點設定檔匯入失敗</value>
+  </data>
+  <data name="FailedReadConfiguration" xml:space="preserve">
+    <value>設定檔讀取失敗</value>
   </data>
   <data name="FillCorrectAlterId" xml:space="preserve">
     <value>請按正確格式填寫額外 ID (AlterId)</value>
@@ -147,75 +177,6 @@
   <data name="FillUUID" xml:space="preserve">
     <value>請正確填寫用戶 ID (UUID)</value>
   </data>
-  <data name="NeedHttpGlobalProxy" xml:space="preserve">
-    <value>此功能依賴全局代理，請先調整您的路由模式！</value>
-  </data>
-  <data name="NonVmessService" xml:space="preserve">
-    <value>非 Vmess 協議，此功能無效</value>
-  </data>
-  <data name="NoValidQRcodeFound" xml:space="preserve">
-    <value>掃描完成，未發現有效 QR 碼！</value>
-  </data>
-  <data name="OperationFailed" xml:space="preserve">
-    <value>操作失敗，請重試</value>
-  </data>
-  <data name="PleaseFillRemarks" xml:space="preserve">
-    <value>請填寫自定義名稱</value>
-  </data>
-  <data name="PleaseSelectEncryption" xml:space="preserve">
-    <value>請選擇加密方式</value>
-  </data>
-  <data name="PleaseSelectProtocol" xml:space="preserve">
-    <value>請選擇協議</value>
-  </data>
-  <data name="PleaseSelectServer" xml:space="preserve">
-    <value>請先選擇節點！</value>
-  </data>
-  <data name="SuccessfullyImportedCustomServer" xml:space="preserve">
-    <value>自定義節點設定檔已匯入</value>
-  </data>
-  <data name="SuccessfullyImportedServerViaClipboard" xml:space="preserve">
-    <value>從剪貼簿批次匯入節點 URL 已完成</value>
-  </data>
-  <data name="CustomServerTips" xml:space="preserve">
-    <value>注意：自定義節點設定檔完全依賴您自己的設定，不一定適用本軟體所有功能。</value>
-  </data>
-  <data name="SaveClientConfigurationIn" xml:space="preserve">
-    <value>客戶端設定檔已儲存至： {0}</value>
-  </data>
-  <data name="SaveServerConfigurationIn" xml:space="preserve">
-    <value>服務端設定檔已儲存至： {0}</value>
-  </data>
-  <data name="SpeedServerTips" xml:space="preserve">
-    <value>注意：此功能依賴全局代理，您可於測速完成後重新選擇其他路由模式。</value>
-  </data>
-  <data name="SuccessfullyImportedServerViaScan" xml:space="preserve">
-    <value>掃描匯入節點 URL 已完成</value>
-  </data>
-  <data name="DownloadYesNo" xml:space="preserve">
-    <value>更新需要下載部分檔案，您確認要下載嗎？</value>
-  </data>
-  <data name="RemoveServer" xml:space="preserve">
-    <value>您確認要刪除節點嗎？</value>
-  </data>
-  <data name="CheckServerSettings" xml:space="preserve">
-    <value>請先檢查伺服器設定</value>
-  </data>
-  <data name="ConfigurationFormatIncorrect" xml:space="preserve">
-    <value>設定檔格式有誤</value>
-  </data>
-  <data name="FailedConversionConfiguration" xml:space="preserve">
-    <value>節點設定檔轉換失敗</value>
-  </data>
-  <data name="FailedGenDefaultConfiguration" xml:space="preserve">
-    <value>預設節點設定檔創建失敗</value>
-  </data>
-  <data name="FailedGetDefaultConfiguration" xml:space="preserve">
-    <value>預設節點設定檔獲取失敗</value>
-  </data>
-  <data name="FailedReadConfiguration" xml:space="preserve">
-    <value>設定檔讀取失敗</value>
-  </data>
   <data name="IncorrectClientConfiguration" xml:space="preserve">
     <value>這不是正確的客戶端設定檔，請確認</value>
   </data>
@@ -228,18 +189,11 @@
   <data name="InitialConfiguration" xml:space="preserve">
     <value>初始化設定</value>
   </data>
-  <data name="NonvmessOrssProtocol" xml:space="preserve">
-    <value>非 Vmess 或 SS 協議</value>
+  <data name="IsLatestCore" xml:space="preserve">
+    <value>{0} 已是最新版本。</value>
   </data>
-  <data name="SuccessfulConfiguration" xml:space="preserve">
-    <value>配置成功 
-{0}</value>
-  </data>
-  <data name="NotFoundCore" xml:space="preserve">
-    <value>未安裝 v2rayCore，請利用 [線上更新] 功能自動下載</value>
-  </data>
-  <data name="StartService" xml:space="preserve">
-    <value>啟動服務 ({0})......</value>
+  <data name="IsLatestN" xml:space="preserve">
+    <value>{0} 已是最新版本。</value>
   </data>
   <data name="LvAddress" xml:space="preserve">
     <value>節點地址</value>
@@ -262,14 +216,29 @@
   <data name="LvTestResults" xml:space="preserve">
     <value>測速結果</value>
   </data>
+  <data name="LvTodayDownloadDataAmount" xml:space="preserve">
+    <value>今日下載</value>
+  </data>
+  <data name="LvTodayUploadDataAmount" xml:space="preserve">
+    <value>今日上傳</value>
+  </data>
+  <data name="LvTotalDownloadDataAmount" xml:space="preserve">
+    <value>總下載</value>
+  </data>
+  <data name="LvTotalUploadDataAmount" xml:space="preserve">
+    <value>總上傳</value>
+  </data>
   <data name="LvTransportProtocol" xml:space="preserve">
     <value>傳輸協議</value>
+  </data>
+  <data name="MediumFresh" xml:space="preserve">
+    <value>中等</value>
   </data>
   <data name="MsgClearSubscription" xml:space="preserve">
     <value>刪除原節點訂閱內容</value>
   </data>
   <data name="MsgDownloadV2rayCoreSuccessfully" xml:space="preserve">
-    <value>v2rayCore 下載成功</value>
+    <value>V2ray 核心下載成功</value>
   </data>
   <data name="MsgFailedImportSubscription" xml:space="preserve">
     <value>節點訂閱內容匯入失敗</value>
@@ -286,20 +255,35 @@
   <data name="MsgPACUpdateSuccessfully" xml:space="preserve">
     <value>PAC 更新成功</value>
   </data>
+  <data name="MsgParsingSuccessfully" xml:space="preserve">
+    <value>{0} 解析成功</value>
+  </data>
   <data name="MsgParsingV2rayCoreSuccessfully" xml:space="preserve">
-    <value>v2rayCore 解析成功</value>
+    <value>V2ray 核心解析成功</value>
   </data>
   <data name="MsgSimplifyPAC" xml:space="preserve">
+    <value>PAC 簡化成功</value>
+  </data>
+  <data name="MsgSimplifyPAC1" xml:space="preserve">
     <value>PAC 簡化成功</value>
   </data>
   <data name="MsgStartGettingSubscriptions" xml:space="preserve">
     <value>正在獲取節點訂閱內容</value>
   </data>
+  <data name="MsgStartGettingSubscriptions1" xml:space="preserve">
+    <value>正在獲取節點訂閱內容</value>
+  </data>
+  <data name="MsgStartUpdating" xml:space="preserve">
+    <value>開始更新 {0}...</value>
+  </data>
   <data name="MsgStartUpdatingPAC" xml:space="preserve">
     <value>開始更新 PAC...</value>
   </data>
+  <data name="MsgStartUpdatingPAC1" xml:space="preserve">
+    <value>開始更新 PAC...</value>
+  </data>
   <data name="MsgStartUpdatingV2rayCore" xml:space="preserve">
-    <value>開始更新 v2rayCore...</value>
+    <value>開始更新 V2ray 核心...</value>
   </data>
   <data name="MsgSubscriptionDecodingFailed" xml:space="preserve">
     <value>節點訂閱內容解碼失敗 (非 BASE64 編碼)</value>
@@ -314,12 +298,85 @@
     <value>開始更新節點訂閱</value>
   </data>
   <data name="MsgUpdateV2rayCoreSuccessfully" xml:space="preserve">
-    <value>v2rayCore 更新成功</value>
+    <value>V2ray 核心更新成功</value>
   </data>
   <data name="MsgUpdateV2rayCoreSuccessfullyMore" xml:space="preserve">
-    <value>v2rayCore 更新成功！正在重啟服務...</value>
+    <value>V2ray 核心更新成功！正在重啟服務...</value>
+  </data>
+  <data name="NeedHttpGlobalProxy" xml:space="preserve">
+    <value>此功能依賴全局代理，請先調整您的路由模式</value>
+  </data>
+  <data name="NonvmessOrssProtocol" xml:space="preserve">
+    <value>非 Vmess 或 SS 協議</value>
+  </data>
+  <data name="NonVmessService" xml:space="preserve">
+    <value>非 Vmess 協議，此功能無效</value>
+  </data>
+  <data name="NotFoundCore" xml:space="preserve">
+    <value>未找到 V2ray-core，下載點： {0}</value>
+  </data>
+  <data name="NoValidQRcodeFound" xml:space="preserve">
+    <value>掃描完成，未發現有效 QR 碼</value>
+  </data>
+  <data name="OperationFailed" xml:space="preserve">
+    <value>操作失敗，請重試</value>
+  </data>
+  <data name="PleaseFillRemarks" xml:space="preserve">
+    <value>請填寫自定義名稱</value>
+  </data>
+  <data name="PleaseSelectEncryption" xml:space="preserve">
+    <value>請選擇加密方式</value>
+  </data>
+  <data name="PleaseSelectProtocol" xml:space="preserve">
+    <value>請選擇協議</value>
+  </data>
+  <data name="PleaseSelectServer" xml:space="preserve">
+    <value>請先選擇節點</value>
+  </data>
+  <data name="QuickFresh" xml:space="preserve">
+    <value>快</value>
+  </data>
+  <data name="RemoveDuplicateServerResult" xml:space="preserve">
+    <value>已清理重複的節點。原有節點數量 {0}，現有節點數量 {1}.</value>
+  </data>
+  <data name="RemoveServer" xml:space="preserve">
+    <value>您確認要刪除節點嗎？</value>
   </data>
   <data name="RestartService" xml:space="preserve">
     <value>設定完成！請重啟應用程式以套用新的語言介面。</value>
+  </data>
+  <data name="SaveClientConfigurationIn" xml:space="preserve">
+    <value>客戶端設定檔已儲存至： {0}</value>
+  </data>
+  <data name="SaveServerConfigurationIn" xml:space="preserve">
+    <value>服務端設定檔已儲存至： {0}</value>
+  </data>
+  <data name="SlowFresh" xml:space="preserve">
+    <value>慢</value>
+  </data>
+  <data name="SpeedServerTips" xml:space="preserve">
+    <value>注意：此功能依賴全局代理，您可於測速完成後重新選擇其他路由模式</value>
+  </data>
+  <data name="StartPacFailed" xml:space="preserve">
+    <value>PAC 服務啟動失敗，請用管理員身份啟動</value>
+  </data>
+  <data name="StartService" xml:space="preserve">
+    <value>啟動服務 ({0})......</value>
+  </data>
+  <data name="SuccessfulConfiguration" xml:space="preserve">
+    <value>配置成功 
+{0}</value>
+  </data>
+  <data name="SuccessfullyImportedCustomServer" xml:space="preserve">
+    <value>自定義節點設定檔已匯入</value>
+  </data>
+  <data name="SuccessfullyImportedServerViaClipboard" xml:space="preserve">
+    <value>從剪貼簿批次匯入節點 URL 已完成</value>
+  </data>
+  <data name="SuccessfullyImportedServerViaScan" xml:space="preserve">
+    <value>掃描匯入節點 URL 已完成</value>
+  </data>
+  <data name="TestMeOutput" xml:space="preserve">
+    <value>當前所選節點的真連接延遲：{0}</value>
   </data>
 </root>

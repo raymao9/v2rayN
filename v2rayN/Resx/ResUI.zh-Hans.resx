@@ -121,16 +121,46 @@
     <value>批量导出订阅内容至剪贴板成功</value>
   </data>
   <data name="BatchExportURLSuccessfully" xml:space="preserve">
-    <value>批量导出分享URL至剪贴板成功</value>
+    <value>批量导出分享 URL 至剪贴板成功</value>
+  </data>
+  <data name="CheckServerSettings" xml:space="preserve">
+    <value>请先检查服务器设置</value>
+  </data>
+  <data name="ConfigurationFormatIncorrect" xml:space="preserve">
+    <value>配置格式不正确</value>
+  </data>
+  <data name="CustomServerTips" xml:space="preserve">
+    <value>注意：自定义配置完全依赖您自己的配置，不一定能通用所有设置功能</value>
+  </data>
+  <data name="Downloading" xml:space="preserve">
+    <value>下载开始...</value>
+  </data>
+  <data name="downloadSpeed" xml:space="preserve">
+    <value>下载速度</value>
+  </data>
+  <data name="DownloadYesNo" xml:space="preserve">
+    <value>更新需要联机下载部分文件，您确认要下载吗？</value>
+  </data>
+  <data name="FailedConversionConfiguration" xml:space="preserve">
+    <value>转换配置文件失败</value>
+  </data>
+  <data name="FailedGenDefaultConfiguration" xml:space="preserve">
+    <value>生成默认配置文件失败</value>
+  </data>
+  <data name="FailedGetDefaultConfiguration" xml:space="preserve">
+    <value>取得默认配置失败</value>
   </data>
   <data name="FailedImportedCustomServer" xml:space="preserve">
     <value>导入自定义配置服务器失败</value>
   </data>
+  <data name="FailedReadConfiguration" xml:space="preserve">
+    <value>读取配置文件失败</value>
+  </data>
   <data name="FillCorrectAlterId" xml:space="preserve">
-    <value>请按正确格式填写额外 ID</value>
+    <value>请填写正确格式额外 ID</value>
   </data>
   <data name="FillCorrectServerPort" xml:space="preserve">
-    <value>请按正确格式填写服务器端口</value>
+    <value>请填写正确格式服务器端口</value>
   </data>
   <data name="FillKcpParameters" xml:space="preserve">
     <value>请正确填写 KCP 参数</value>
@@ -145,76 +175,7 @@
     <value>请填写服务器地址</value>
   </data>
   <data name="FillUUID" xml:space="preserve">
-    <value>请填写用户 ID</value>
-  </data>
-  <data name="NeedHttpGlobalProxy" xml:space="preserve">
-    <value>此功能依赖全局代理，请先启用系统代理，路由选择全局模式。</value>
-  </data>
-  <data name="NonVmessService" xml:space="preserve">
-    <value>非 Vmess 服务，此功能无效</value>
-  </data>
-  <data name="NoValidQRcodeFound" xml:space="preserve">
-    <value>扫描完成，未发现有效二维码！</value>
-  </data>
-  <data name="OperationFailed" xml:space="preserve">
-    <value>操作失败，请检查重试</value>
-  </data>
-  <data name="PleaseFillRemarks" xml:space="preserve">
-    <value>请填写备注</value>
-  </data>
-  <data name="PleaseSelectEncryption" xml:space="preserve">
-    <value>请选择加密方式</value>
-  </data>
-  <data name="PleaseSelectProtocol" xml:space="preserve">
-    <value>请选择协议</value>
-  </data>
-  <data name="PleaseSelectServer" xml:space="preserve">
-    <value>请先选择服务器！</value>
-  </data>
-  <data name="SuccessfullyImportedCustomServer" xml:space="preserve">
-    <value>成功导入自定义配置服务器</value>
-  </data>
-  <data name="SuccessfullyImportedServerViaClipboard" xml:space="preserve">
-    <value>从剪贴板导入批量 URL 成功</value>
-  </data>
-  <data name="CustomServerTips" xml:space="preserve">
-    <value>注意：自定义配置完全依赖您自己的配置，不一定能通用所有设置功能。</value>
-  </data>
-  <data name="SaveClientConfigurationIn" xml:space="preserve">
-    <value>客户端配置文件保存在：{0}</value>
-  </data>
-  <data name="SaveServerConfigurationIn" xml:space="preserve">
-    <value>服务端配置文件保存在：{0}</value>
-  </data>
-  <data name="SpeedServerTips" xml:space="preserve">
-    <value>注意：此功能依赖全局代理！测试完成后，请手工调整路由模式和活动节点。</value>
-  </data>
-  <data name="SuccessfullyImportedServerViaScan" xml:space="preserve">
-    <value>扫描导入 URL 成功</value>
-  </data>
-  <data name="DownloadYesNo" xml:space="preserve">
-    <value>更新需要联机下载部分文件，您确认要下载吗？</value>
-  </data>
-  <data name="RemoveServer" xml:space="preserve">
-    <value>是否确定移除服务器？</value>
-  </data>
-  <data name="CheckServerSettings" xml:space="preserve">
-    <value>请先检查服务器设置</value>
-  </data>
-  <data name="ConfigurationFormatIncorrect" xml:space="preserve">
-    <value>配置格式不正确</value>
-  </data>
-  <data name="FailedConversionConfiguration" xml:space="preserve">
-    <value>转换配置文件失败</value>
-  </data>
-  <data name="FailedGenDefaultConfiguration" xml:space="preserve">
-    <value>生成默认配置文件失败</value>
-  </data>
-  <data name="FailedGetDefaultConfiguration" xml:space="preserve">
-    <value>取得默认配置失败</value>
-  </data>
-  <data name="FailedReadConfiguration" xml:space="preserve">
-    <value>读取配置文件失败</value>
+    <value>请填写用户 UUID</value>
   </data>
   <data name="IncorrectClientConfiguration" xml:space="preserve">
     <value>不是正确的客户端配置文件，请检查</value>
@@ -228,18 +189,11 @@
   <data name="InitialConfiguration" xml:space="preserve">
     <value>初始化配置</value>
   </data>
-  <data name="NonvmessOrssProtocol" xml:space="preserve">
-    <value>非 Vmess 或 SS 协议</value>
+  <data name="IsLatestCore" xml:space="preserve">
+    <value>{0} 已是最新版本。</value>
   </data>
-  <data name="SuccessfulConfiguration" xml:space="preserve">
-    <value>配置成功
-{0}</value>
-  </data>
-  <data name="NotFoundCore" xml:space="preserve">
-    <value>未找到 v2rayCore，你可以通过软件内置 [在线更新] 功能自动下载。</value>
-  </data>
-  <data name="StartService" xml:space="preserve">
-    <value>启动服务({0})......</value>
+  <data name="IsLatestN" xml:space="preserve">
+    <value>{0} 已是最新版本。</value>
   </data>
   <data name="LvAddress" xml:space="preserve">
     <value>节点地址</value>
@@ -262,14 +216,29 @@
   <data name="LvTestResults" xml:space="preserve">
     <value>测速结果</value>
   </data>
+  <data name="LvTodayDownloadDataAmount" xml:space="preserve">
+    <value>今日下载</value>
+  </data>
+  <data name="LvTodayUploadDataAmount" xml:space="preserve">
+    <value>今日上传</value>
+  </data>
+  <data name="LvTotalDownloadDataAmount" xml:space="preserve">
+    <value>总下载</value>
+  </data>
+  <data name="LvTotalUploadDataAmount" xml:space="preserve">
+    <value>总上传</value>
+  </data>
   <data name="LvTransportProtocol" xml:space="preserve">
     <value>传输协议</value>
+  </data>
+  <data name="MediumFresh" xml:space="preserve">
+    <value>中等</value>
   </data>
   <data name="MsgClearSubscription" xml:space="preserve">
     <value>清除原订阅内容</value>
   </data>
   <data name="MsgDownloadV2rayCoreSuccessfully" xml:space="preserve">
-    <value>v2rayCore 下载成功</value>
+    <value>V2ray 核心已下载</value>
   </data>
   <data name="MsgFailedImportSubscription" xml:space="preserve">
     <value>导入订阅内容失败</value>
@@ -286,8 +255,8 @@
   <data name="MsgPACUpdateSuccessfully" xml:space="preserve">
     <value>PAC 更新成功</value>
   </data>
-  <data name="MsgParsingV2rayCoreSuccessfully" xml:space="preserve">
-    <value>v2rayCore 解析成功</value>
+  <data name="MsgParsingSuccessfully" xml:space="preserve">
+    <value>{0} 解析成功</value>
   </data>
   <data name="MsgSimplifyPAC" xml:space="preserve">
     <value>PAC 简化成功</value>
@@ -295,11 +264,11 @@
   <data name="MsgStartGettingSubscriptions" xml:space="preserve">
     <value>开始获取订阅内容</value>
   </data>
+  <data name="MsgStartUpdating" xml:space="preserve">
+    <value>开始更新 {0}...</value>
+  </data>
   <data name="MsgStartUpdatingPAC" xml:space="preserve">
     <value>开始更新 PAC...</value>
-  </data>
-  <data name="MsgStartUpdatingV2rayCore" xml:space="preserve">
-    <value>开始更新 V2rayCore...</value>
   </data>
   <data name="MsgSubscriptionDecodingFailed" xml:space="preserve">
     <value>订阅内容解码失败 (非 BASE64 码)</value>
@@ -314,12 +283,85 @@
     <value>更新订阅开始</value>
   </data>
   <data name="MsgUpdateV2rayCoreSuccessfully" xml:space="preserve">
-    <value>v2rayCore 更新成功</value>
+    <value>V2ray 核心更新成功</value>
   </data>
   <data name="MsgUpdateV2rayCoreSuccessfullyMore" xml:space="preserve">
-    <value>v2rayCore 更新成功！正在重启服务...</value>
+    <value>V2ray 核心更新成功！正在重启服务...</value>
+  </data>
+  <data name="NeedHttpGlobalProxy" xml:space="preserve">
+    <value>此功能依赖全局代理，请先设置正确</value>
+  </data>
+  <data name="NonvmessOrssProtocol" xml:space="preserve">
+    <value>非 Vmess 或 SS 协议</value>
+  </data>
+  <data name="NonVmessService" xml:space="preserve">
+    <value>非 Vmess 服务，此功能无效</value>
+  </data>
+  <data name="NotFoundCore" xml:space="preserve">
+    <value>找不到 V2ray 核心，下载地址: {0}</value>
+  </data>
+  <data name="NoValidQRcodeFound" xml:space="preserve">
+    <value>扫描完成，未发现有效二维码</value>
+  </data>
+  <data name="OperationFailed" xml:space="preserve">
+    <value>操作失败，请检查重试</value>
+  </data>
+  <data name="PleaseFillRemarks" xml:space="preserve">
+    <value>请填写备注</value>
+  </data>
+  <data name="PleaseSelectEncryption" xml:space="preserve">
+    <value>请选择加密方式</value>
+  </data>
+  <data name="PleaseSelectProtocol" xml:space="preserve">
+    <value>请选择协议</value>
+  </data>
+  <data name="PleaseSelectServer" xml:space="preserve">
+    <value>请先选择服务器</value>
+  </data>
+  <data name="QuickFresh" xml:space="preserve">
+    <value>快</value>
+  </data>
+  <data name="RemoveDuplicateServerResult" xml:space="preserve">
+    <value>服务器去重完成。原数量: {0}，现数量: {1}</value>
+  </data>
+  <data name="RemoveServer" xml:space="preserve">
+    <value>是否确定移除服务器？</value>
   </data>
   <data name="RestartService" xml:space="preserve">
     <value>设置成功！新的界面语言将于重启程序后生效。</value>
+  </data>
+  <data name="SaveClientConfigurationIn" xml:space="preserve">
+    <value>客户端配置文件保存在：{0}</value>
+  </data>
+  <data name="SaveServerConfigurationIn" xml:space="preserve">
+    <value>服务端配置文件保存在：{0}</value>
+  </data>
+  <data name="SlowFresh" xml:space="preserve">
+    <value>慢</value>
+  </data>
+  <data name="SpeedServerTips" xml:space="preserve">
+    <value>注意：此功能依赖全局代理！测试完成后，请手工调整路由模式和活动节点</value>
+  </data>
+  <data name="StartPacFailed" xml:space="preserve">
+    <value>PAC 服务启动失败，请用系统管理员身份启动</value>
+  </data>
+  <data name="StartService" xml:space="preserve">
+    <value>启动服务 ({0})...</value>
+  </data>
+  <data name="SuccessfulConfiguration" xml:space="preserve">
+    <value>配置成功
+{0}</value>
+  </data>
+  <data name="SuccessfullyImportedCustomServer" xml:space="preserve">
+    <value>成功导入自定义配置服务器</value>
+  </data>
+  <data name="SuccessfullyImportedServerViaClipboard" xml:space="preserve">
+    <value>成功从剪贴板导入 {0} 个服务器</value>
+  </data>
+  <data name="SuccessfullyImportedServerViaScan" xml:space="preserve">
+    <value>扫描导入 URL 成功</value>
+  </data>
+  <data name="TestMeOutput" xml:space="preserve">
+    <value>当前节点的真连接延迟：{0}</value>
   </data>
 </root>

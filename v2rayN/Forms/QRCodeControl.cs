@@ -12,7 +12,6 @@ namespace v2rayN.Forms
         }
         private void QRCodeControl_Load(object sender, System.EventArgs e)
         {
-            chkShow_CheckedChanged(null, null);
             txtUrl.MouseUp += txtUrl_MouseUp;      
         }
 
@@ -26,22 +25,15 @@ namespace v2rayN.Forms
             if (Index >= 0)
             {
                 string url = ConfigHandler.GetVmessQRCode(config, Index);
-                if (string.IsNullOrEmpty(url))
+                if (Utils.IsNullOrEmpty(url))
                 {
                     picQRCode.Image = null;
                     txtUrl.Text = string.Empty;
                     return;
                 }
-                picQRCode.Image = QRCodeHelper.GetQRCode(url);
                 txtUrl.Text = url;
+                picQRCode.Image = QRCodeHelper.GetQRCode(url);                
             }
         }
-
-        private void chkShow_CheckedChanged(object sender, System.EventArgs e)
-        {
-            picQRCode.Visible =
-            txtUrl.Visible = chkShow.Checked;
-        }
-
     }
 }

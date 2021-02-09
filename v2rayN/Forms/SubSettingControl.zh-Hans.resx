@@ -140,6 +140,6 @@
     <value>地址 (url)</value>
   </data>
   <data name="groupBox2.Text" xml:space="preserve">
-    <value>订阅详情</value>
+    <value>节点订阅详情</value>
   </data>
 </root>
