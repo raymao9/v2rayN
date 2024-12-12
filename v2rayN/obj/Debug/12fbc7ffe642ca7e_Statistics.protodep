@@ -1,2 +1,0 @@
-obj\Debug/Statistics.cs \
-obj\Debug/StatisticsGrpc.cs: Protos/Statistics.proto
